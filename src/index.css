@@ -28,7 +28,7 @@
   }
 
   .nav-button {
-    @apply py-3 px-6 text-sm lg:text-base text-white  bg-cyan-700 font-medium rounded-full 
+    @apply text-xs p-2  lg:text-base text-white  bg-slate-700 font-medium rounded-full
   }
 
   .hero-label {
@@ -43,7 +43,7 @@
   }
 
   .hero-button {
-    @apply mt-4 py-4 px-4 font-medium text-slate-100 bg-cyan-700 rounded-full
+    @apply mt-4 py-4 px-4 font-medium text-slate-100 bg-slate-700 rounded-full
   }
 
   .cards-container {

@@ -87,9 +87,8 @@ export default function Home() {
           <h2 className="logo-title">
             My Portfolio
           </h2>
+          <li className="nav-li">Home</li>
           <li className="nav-li">Projects</li>
-          <li className="nav-li">Resume</li>
-          <li className="nav-li">About me</li>
           <li className="nav-li">Contact me</li>
         </ul>
         <ul className="flex justify-between items-center gap-4">
@@ -103,16 +102,13 @@ export default function Home() {
         </ul>
       </nav>
       <section className="mt-24">
-        <h4 className="hero-label">I am open for work</h4>
         <h1 className="hero-main-text">
           I am a fullstack web developer
         </h1>
-        <p className="hero-sub-text">
-          Reach out to me
-        </p>
+        
         <div className="flex justify-center">
           <button className="hero-button">
-            Start hiring today
+            Reach out to me
           </button>
         </div>
       </section>
