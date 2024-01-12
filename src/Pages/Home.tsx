@@ -1,16 +1,16 @@
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
-import {projects} from '../../data.ts'
+//import {projects} from '../../data.ts'
 import { useEffect, useState } from "react";
 import { BsFillMoonFill } from "react-icons/bs";
 import { BsFillSunFill } from "react-icons/bs";
 import { LiaTimesSolid } from "react-icons/lia";
 
-interface Project {
+/* interface Project {
     id: number
     name: string
     img: string
 
-}
+} */
 
 export default function Home() {
   const [theme, setTheme] = useState("light");
