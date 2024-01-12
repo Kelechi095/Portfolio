@@ -102,11 +102,12 @@ export default function Home() {
         </ul>
       </nav>
       <section className="mt-24">
+        <h2 className="hero-label">Hi there. My name is Awoms Kelechi</h2>
         <h1 className="hero-main-text">
           I am a fullstack web developer
         </h1>
         
-        <div className="flex justify-center">
+        <div className="flex justify-center mt-4">
           <button className="hero-button">
             Reach out to me
           </button>

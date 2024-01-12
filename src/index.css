@@ -4,11 +4,11 @@
 
 @layer components {
   .main {
-    @apply py-4 px-4 lg:px-12 lg:py-6 bg-white min-h-screen dark:bg-darkBlue relative;
+    @apply py-4 px-4 lg:px-12 lg:py-6 bg-slate-50 min-h-screen dark:bg-darkBlue relative;
   }
 
   .logo-title {
-    @apply font-mono tracking-wide text-xl text-rose-500 font-bold dark:text-white
+    @apply font-mono tracking-wide text-xl text-darkBlue3 font-bold dark:text-white
   }
 
   .hidden-nav {
@@ -24,26 +24,26 @@
   }
 
   .nav-li {
-    @apply text-base hidden text-textColor font-medium tracking-normal lg:block dark:text-slate-100;
+    @apply text-[15px] hidden text-slate-700 font-semibold tracking-normal lg:block dark:text-slate-100;
   }
 
   .nav-button {
-    @apply text-xs p-2 px-3  lg:text-base text-white hover:bg-rose-600 transition duration-300  bg-rose-500 font-medium rounded-full
+    @apply text-xs py-3 px-3  lg:text-sm text-white hover:bg-slate-700 dark:bg-slate-600 dark:hover:bg-slate-500 transition duration-300  bg-slate-800 font-semibold rounded-full
   }
 
   .hero-label {
-    @apply mx-auto font-serif font-medium text-center p-2 w-fit rounded-full bg-cyan-500 px-4 tracking-wide leading-5 text-slate-900
+    @apply mx-auto font-serif text-center p-2 w-fit rounded-full bg-slate-200 dark:bg-slate-300 px-4 tracking-wide leading-5 text-slate-900
   }
   .hero-main-text {
-    @apply mt-12 mx-auto max-w-md text-5xl md:text-6xl lg:text-7xl md:max-w-lg  lg:max-w-4xl text-center font-serif p-2 text-textColor dark:text-white
+    @apply mt-12 mx-auto max-w-md text-5xl md:text-6xl lg:text-7xl md:max-w-lg  lg:max-w-4xl text-center font-serif p-2 text-slate-900 dark:text-white
   }
 
   .hero-sub-text {
-    @apply text-lg font-medium max-w-md md:max-w-lg text-textColor lg:max-w-3xl lg:text-xl text-center mx-auto p-3 dark:text-white
+    @apply text-sm font-medium max-w-md md:max-w-lg text-textColor lg:max-w-3xl lg:text-lg text-center my-2 mx-auto p-3 dark:text-white
   }
 
   .hero-button {
-    @apply mt-4 py-4 px-8 font-medium text-slate-100 hover:bg-rose-300 transition duration-300 bg-rose-400 rounded-full
+    @apply mt-4 py-4 px-8 font-semibold dark:bg-slate-600 dark:hover:bg-slate-500 text-slate-100 hover:bg-slate-700 transition duration-300 bg-slate-800 rounded-full
   }
 
   .cards-container {
