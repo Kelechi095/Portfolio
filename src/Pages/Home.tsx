@@ -85,7 +85,7 @@ export default function Home() {
             />
           )}
           <h2 className="logo-title">
-            My Portfolio
+            Portfolio
           </h2>
           <li className="nav-li">Home</li>
           <li className="nav-li">Projects</li>
