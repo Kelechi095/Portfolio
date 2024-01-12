@@ -88,6 +88,7 @@ export default function Home() {
             Portfolio
           </h2>
           <li className="nav-li">Home</li>
+          <li className="nav-li">Skills</li>
           <li className="nav-li">Projects</li>
           <li className="nav-li">Contact me</li>
         </ul>
@@ -106,8 +107,8 @@ export default function Home() {
         <h1 className="hero-main-text">
           I am a fullstack web developer
         </h1>
-        
-        <div className="flex justify-center mt-4">
+        <h3 className="hero-sub-text">I am smart, hardworking and willing to do my best in achieving the goals of my employer</h3>
+        <div className="flex justify-center">
           <button className="hero-button">
             Reach out to me
           </button>
