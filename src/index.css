@@ -4,7 +4,7 @@
 
 @layer components {
   .main {
-    @apply py-4 px-4 lg:px-12 lg:py-6 bg-lighterCyan h-full dark:bg-darkBlue relative;
+    @apply py-4 px-4 lg:px-12 lg:py-6 bg-lighterCyan min-h-screen dark:bg-darkBlue relative;
   }
 
   .logo-title {
@@ -28,7 +28,7 @@
   }
 
   .nav-button {
-    @apply text-xs p-2  lg:text-base text-white  bg-slate-700 font-medium rounded-full
+    @apply text-xs p-2 px-3  lg:text-base text-white hover:bg-slate-600 transition duration-300  bg-slate-700 font-medium rounded-full
   }
 
   .hero-label {
@@ -43,7 +43,7 @@
   }
 
   .hero-button {
-    @apply mt-4 py-4 px-4 font-medium text-slate-100 bg-slate-700 rounded-full
+    @apply mt-4 py-4 px-4 font-medium text-slate-100 hover:bg-slate-600 transition duration-300 bg-slate-700 rounded-full
   }
 
   .cards-container {

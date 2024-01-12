@@ -113,7 +113,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="cards-container">
+      {/* <section className="cards-container">
         {projects.map((project: Project) => (
           <div className="image-card" key={project.id}>
             <img
@@ -128,7 +128,7 @@ export default function Home() {
             </div>
           </div>
         ))}
-      </section>
+      </section> */}
     </main>
   );
 }
