@@ -102,7 +102,7 @@ export default function Home() {
         </ul>
       </nav>
       <section className="mt-24">
-        <h2 className="hero-label">Hi there. My name is Awoms Kelechi</h2>
+        <h2 className="hero-label">Hi. My name is Awoms Kelechi</h2>
         <h1 className="hero-main-text">
           I am a fullstack web developer
         </h1>
