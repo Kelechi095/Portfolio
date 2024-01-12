@@ -107,10 +107,12 @@ export default function Home() {
         <h1 className="hero-main-text">
           I am a fullstack web developer
         </h1>
-        <h3 className="hero-sub-text">I am smart, hardworking and willing to do my best in achieving the goals of my employer</h3>
+        <h3 className="hero-sub-text">I have built stable, elegant, secure and reliable websites with functional user experience, responsive design, cross browser compatibility and great web accessibility
+        </h3>
+        
         <div className="flex justify-center">
           <button className="hero-button">
-            Reach out to me
+            View my projects
           </button>
         </div>
       </section>
