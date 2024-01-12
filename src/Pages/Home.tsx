@@ -59,7 +59,10 @@ export default function Home() {
 
             <li
               className="cursor-pointer text-xs font-semibold uppercase w-fit"
-              onClick={changeTheme}
+              onClick={() => {
+                changeTheme()
+                toggleSidebar()
+              }}
             >
               {theme === "light" ? "Dark Mode" : "Light Mode"}
             </li>
@@ -103,11 +106,11 @@ export default function Home() {
         </ul>
       </nav>
       <section className="mt-24">
-        <h2 className="hero-label">Hi. My name is Awoms Kelechi</h2>
+        <h2 className="hero-label">My name is Awoms Kelechi</h2>
         <h1 className="hero-main-text">
           I am a fullstack web developer
         </h1>
-        <h3 className="hero-sub-text">I have built stable, elegant,  and secure websites with functional user experience, responsive design, cross browser compatibility and great web accessibility
+        <h3 className="hero-sub-text">I am smart, hardworking and willing to put as much effort as is needed to acheive the goals of my employer
         </h3>
         
         <div className="flex justify-center">

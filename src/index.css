@@ -4,7 +4,7 @@
 
 @layer components {
   .main {
-    @apply py-4 px-4 lg:px-12 lg:py-6 bg-white min-h-screen dark:bg-darkBlue3 relative;
+    @apply py-8 px-4 lg:px-12 lg:py-6 bg-white min-h-screen dark:bg-darkBlue3 relative;
   }
 
   .logo-title {
@@ -39,7 +39,7 @@
   }
 
   .hero-sub-text {
-    @apply text-[15px] font-medium md:max-w-lg text-textColor lg:max-w-3xl lg:text-[23px] text-center mx-auto p-3 dark:text-white
+    @apply text-[15px] font-medium md:max-w-lg text-textColor lg:max-w-3xl lg:text-[22px] text-center mx-auto p-3 dark:text-white
   }
 
   .hero-button {
