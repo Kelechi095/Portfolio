@@ -32,18 +32,18 @@
   }
 
   .hero-label {
-    @apply mx-auto font-serif text-center md:text-lg lg:text-xl p-2 w-fit rounded-full bg-purple-50 dark:bg-purple-200 px-4 tracking-wide leading-5 text-slate-900
+    @apply mx-auto font-serif text-center md:text-lg lg:text-xl p-2 w-fit rounded-full bg-slate-50 dark:bg-slate-200 px-4 tracking-wide leading-5 text-slate-900
   }
   .hero-main-text {
-    @apply mt-12 mx-auto max-w-md text-5xl md:text-6xl lg:text-7xl md:max-w-lg  lg:max-w-4xl text-center font-serif p-2 text-slate-900 dark:text-white
+    @apply mt-4 m-4 mx-auto max-w-md text-5xl md:text-6xl lg:text-7xl md:max-w-lg  lg:max-w-4xl text-center font-serif p-2 text-slate-900 dark:text-white
   }
 
   .hero-sub-text {
-    @apply text-sm font-medium max-w-md md:max-w-lg text-textColor lg:max-w-3xl lg:text-xl text-center my-2 mx-auto p-3 dark:text-white
+    @apply text-[15px] font-medium max-w-md md:max-w-lg text-textColor lg:max-w-4xl lg:text-xl text-center my-2 mx-auto p-3 dark:text-white
   }
 
   .hero-button {
-    @apply mt-4 py-4 px-8 font-semibold  bg-slate-800 hover:bg-slate-700 dark:bg-slate-600  dark:hover:bg-slate-500 text-slate-100  transition duration-300 rounded-full
+    @apply mt-2 py-3 px-8 font-semibold  bg-slate-700 hover:bg-slate-600 dark:bg-slate-600  dark:hover:bg-slate-500 text-slate-100  transition duration-300 rounded-full
   }
 
   .cards-container {
