@@ -39,7 +39,7 @@
   }
 
   .hero-sub-text {
-    @apply text-[15px] font-medium max-w-md md:max-w-lg text-textColor lg:max-w-3xl lg:text-[23px] text-center mx-auto p-3 dark:text-white
+    @apply text-[15px] font-medium md:max-w-lg text-textColor lg:max-w-3xl lg:text-[23px] text-center mx-auto p-3 dark:text-white
   }
 
   .hero-button {
