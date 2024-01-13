@@ -16,10 +16,10 @@ export default function Home() {
     <Wrapper>
       <Nav />
       <section className="mt-24">
-        <h2 className="hero-label">I'm open for hire! Please Reach out</h2>
-        <h1 className="hero-main-text">I'm Kelechi. I am a fullstack web developer</h1>
+        <h2 className="hero-label">I'm open for hire! Please reach out</h2>
+        <h1 className="hero-main-text">I'm Kelechi. I'm a fullstack web developer</h1>
         <h3 className="hero-sub-text">
-          I am smart, hardworking, I enjoy working within a team and I'm always willing to do what is required to achieve the goals of my employer.
+          I am smart, hardworking and always willing to do what is required to achieve the goals of my employer.
         </h3>
 
         <div className="flex justify-center">
