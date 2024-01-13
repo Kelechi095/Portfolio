@@ -21,7 +21,7 @@ export default {
         textColor: "#000"
       },
       fontFamily: {
-        sans: ['Raleway', 'sans-serif'],
+        sans: ['Raleway', 'sans-serif', "Roboto"],
         opensans: ['Open Sans', 'sans-serif'],
       },
     },
