@@ -17,8 +17,8 @@ const MobileNav = ({
   isOpen,
 }: NavbarProps) => {
 
-  const activeStyles = "text-emerald-500 dark:text-emerald-700"
-  const inactiveStyles ="text-slate-800 hover:text-emerald-700 dark:text-zinc-100 dark:hover:text-emerald-700"
+  const activeStyles = "text-emerald-600 dark:text-emerald-600"
+  const inactiveStyles ="text-slate-800 hover:text-emerald-600 dark:text-zinc-100 dark:hover:text-emerald-600"
   
   return (
     <nav
