@@ -4,11 +4,11 @@
 
 @layer components {
   .main {
-    @apply py-8 px-4 lg:px-12 lg:py-6 bg-white min-h-screen dark:bg-darkBlue3 relative;
+    @apply py-8 px-4 lg:px-12 lg:py-6 bg-white min-h-screen dark:bg-black relative;
   }
 
   .logo-title {
-    @apply font-mono tracking-wide text-xl text-darkBlue3 font-bold dark:text-white
+    @apply font-mono tracking-wide text-xl text-emerald-900 font-bold dark:text-white
   }
 
   .hidden-nav {
@@ -28,22 +28,22 @@
   }
 
   .nav-button {
-    @apply text-xs py-2 px-3  lg:text-sm text-white  bg-slate-700 hover:bg-slate-500 dark:bg-slate-600 dark:hover:bg-slate-500 transition duration-300  font-semibold rounded-full
+    @apply text-xs py-2 px-3  lg:text-sm text-white  bg-emerald-700 hover:bg-emerald-600 dark:bg-emerald-700 dark:hover:bg-emerald-600 transition duration-300  font-semibold rounded-full
   }
 
   .hero-label {
-    @apply mx-auto font-serif text-center md:text-lg lg:text-xl p-4 w-fit rounded-full bg-slate-50 dark:bg-white px-4 tracking-wide leading-5 text-slate-900
+    @apply mx-auto font-serif text-center text-xl md:text-2xl lg:text-3xl p-4 w-fit rounded-full px-4 tracking-wide leading-5 text-emerald-800 dark:text-emerald-600
   }
   .hero-main-text {
-    @apply my-4  mx-auto max-w-md text-5xl md:text-6xl lg:text-7xl md:max-w-lg  lg:max-w-4xl text-center font-serif p-2 text-slate-900 dark:text-white
+    @apply my-4  mx-auto max-w-md text-5xl md:text-6xl lg:text-7xl md:max-w-lg  lg:max-w-4xl text-center font-serif p-2 text-emerald-950 dark:text-white
   }
 
   .hero-sub-text {
-    @apply text-[15px] font-medium md:max-w-lg text-textColor lg:max-w-3xl lg:text-[22px] text-center mx-auto p-3 dark:text-white
+    @apply text-[15px] font-medium md:max-w-lg text-emerald-900 lg:max-w-3xl lg:text-[22px] text-center mx-auto p-3 dark:text-white
   }
 
   .hero-button {
-    @apply mt-2 py-3 px-8 font-semibold  bg-slate-700 hover:bg-slate-600 dark:bg-slate-500  dark:hover:bg-slate-500 text-slate-100  transition duration-300 rounded
+    @apply mt-2 py-3 px-8 font-semibold  bg-emerald-900 hover:bg-slate-600 dark:bg-emerald-700  dark:hover:bg-emerald-600 text-slate-100  transition duration-300 rounded
   }
 
   .cards-container {
