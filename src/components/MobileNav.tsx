@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import { LiaTimesSolid } from "react-icons/lia";
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
 import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
 
