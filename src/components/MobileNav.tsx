@@ -16,29 +16,22 @@ const MobileNav = ({
   theme,
   isOpen,
 }: NavbarProps) => {
+  const activeStyles = "text-emerald-600 dark:text-emerald-600";
+  const inactiveStyles =
+    "text-slate-800 hover:text-emerald-600 dark:text-zinc-100 dark:hover:text-emerald-00";
 
-  const activeStyles = "text-emerald-600 dark:text-emerald-600"
-  const inactiveStyles ="text-slate-800 hover:text-emerald-600 dark:text-zinc-100 dark:hover:text-emerald-600"
-  
   return (
     <nav
       className={isOpen ? "nav-open" : "flex items-center justify-between"}
       onClick={(e) => e.stopPropagation()}
     >
       <ul className="flex items-center gap-4 lg:gap-8 text-slate-800 tracking-tighter">
-        {isOpen ? (
-          <LiaTimesSolid
-            size={30}
-            className="cursor-pointer lg:hidden dark:text-white"
-            onClick={toggleSidebar}
-          />
-        ) : (
-          <HiOutlineMenuAlt2
-            size={30}
-            className="cursor-pointer lg:hidden dark:text-slate-100"
-            onClick={toggleSidebar}
-          />
-        )}
+        <HiOutlineMenuAlt2
+          size={30}
+          className="cursor-pointer lg:hidden dark:text-slate-100"
+          onClick={toggleSidebar}
+        />
+
         <h2 className="logo-title">Portfolio</h2>
         <div className="hidden md:flex justify-between gap-8 text-sm items-center">
           <NavLink
@@ -54,7 +47,7 @@ const MobileNav = ({
           <NavLink
             to="/about"
             className={({ isActive }) =>
-            isActive ? activeStyles : inactiveStyles
+              isActive ? activeStyles : inactiveStyles
             }
           >
             <li className="cursor-pointer items-center font-semibold text-base">
@@ -64,7 +57,7 @@ const MobileNav = ({
           <NavLink
             to="/skills"
             className={({ isActive }) =>
-            isActive ? activeStyles : inactiveStyles
+              isActive ? activeStyles : inactiveStyles
             }
           >
             <li className="cursor-pointer items-center font-semibold text-base">
@@ -74,7 +67,7 @@ const MobileNav = ({
           <NavLink
             to="/projects"
             className={({ isActive }) =>
-            isActive ? activeStyles : inactiveStyles
+              isActive ? activeStyles : inactiveStyles
             }
           >
             <li className="cursor-pointer items-center font-semibold text-base">
@@ -84,7 +77,7 @@ const MobileNav = ({
           <NavLink
             to="/contact"
             className={({ isActive }) =>
-            isActive ? activeStyles : inactiveStyles
+              isActive ? activeStyles : inactiveStyles
             }
           >
             <li className="cursor-pointer items-center font-semibold text-base">
@@ -96,17 +89,17 @@ const MobileNav = ({
       <ul className="flex justify-between items-center gap-4">
         {theme === "light" ? (
           <BsFillMoonFill
-            className="hidden lg:block cursor-pointer hover:text-emerald-600"
+            className="cursor-pointer hover:text-emerald-600"
             onClick={changeTheme}
           />
         ) : (
           <BsFillSunFill
-            className="text-white hidden lg:block cursor-pointer hover:text-emerald-600"
+            className="text-white cursor-pointer hover:text-emerald-600"
             onClick={changeTheme}
           />
         )}
 
-        <button className="nav-button">Download resume</button>
+        <button className="nav-button">Resume</button>
       </ul>
     </nav>
   );

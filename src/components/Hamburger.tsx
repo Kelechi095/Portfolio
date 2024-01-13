@@ -1,3 +1,4 @@
+import { LiaTimesSolid } from "react-icons/lia";
 import { NavLink } from "react-router-dom";
 
 interface MobileNavProps {
@@ -7,78 +8,76 @@ interface MobileNavProps {
 }
 
 export const Hamburger = ({
-  changeTheme,
   toggleSidebar,
-  theme,
 }: MobileNavProps) => {
+
+  const activeStyles = "text-lg font-bold text-white border-b-2 pb-1 border-white"
+  const inactiveStyles = "text-lg text-white"
+
   return (
     <nav className="hidden-nav" onClick={(e) => e.stopPropagation()}>
+      <LiaTimesSolid
+        size={30}
+        className="cursor-pointer text-white"
+        onClick={toggleSidebar}
+      />
       <ul className="hidden-nav-ul">
         <NavLink
           to="/"
           className={({ isActive }) =>
-            isActive ? "text-cyan-600" : "text-slate-800"
+            isActive ? activeStyles : inactiveStyles
           }
           onClick={toggleSidebar}
         >
-          <li className="cursor-pointer items-center font-semibold text-base">
+          <li className="cursor-pointer items-center">
             Home
           </li>
         </NavLink>
         <NavLink
           to="/about"
           className={({ isActive }) =>
-            isActive ? "text-cyan-600" : "text-slate-800"
+          isActive ? activeStyles : inactiveStyles
           }
           onClick={toggleSidebar}
         >
-          <li className="cursor-pointer items-center font-semibold text-base">
-            About Me
+          <li className="cursor-pointer items-center">
+            About me
           </li>
         </NavLink>
         <NavLink
           to="/skills"
           className={({ isActive }) =>
-            isActive ? "text-cyan-600" : "text-slate-800"
+          isActive ? activeStyles : inactiveStyles
           }
           onClick={toggleSidebar}
         >
-          <li className="cursor-pointer items-center font-semibold text-base">
+          <li className="cursor-pointer items-center ">
             Skills
           </li>
         </NavLink>
         <NavLink
           to="/projects"
           className={({ isActive }) =>
-            isActive ? "text-cyan-600" : "text-slate-800"
+          isActive ? activeStyles : inactiveStyles
           }
           onClick={toggleSidebar}
         >
-          <li className="cursor-pointer items-center font-semibold text-base">
+          <li className="cursor-pointer items-center">
             Projects
           </li>
         </NavLink>
         <NavLink
           to="/contact"
           className={({ isActive }) =>
-            isActive ? "text-cyan-600" : "text-slate-800"
+          isActive ? activeStyles : inactiveStyles
           }
           onClick={toggleSidebar}
         >
-          <li className="cursor-pointer items-center font-semibold text-base">
-            Contact Me
+          <li className="cursor-pointer items-center">
+            Contact me
           </li>
         </NavLink>
 
-        <li
-          className="cursor-pointer text-xs font-semibold uppercase w-fit"
-          onClick={() => {
-            changeTheme();
-            toggleSidebar();
-          }}
-        >
-          {theme === "light" ? "Dark Mode" : "Light Mode"}
-        </li>
       </ul>
     </nav>
   );
