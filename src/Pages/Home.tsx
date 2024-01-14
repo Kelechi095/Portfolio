@@ -11,7 +11,7 @@ export default function Home() {
       <section className="mt-24">
         <h2 className="hero-label">I'm open for hire! Please reach out</h2>
         <h1 className="hero-main-text">
-          I'm Kelechi. I'm a fullstack web developer
+          I'm a fullstack web developer
         </h1>
         <h3 className="hero-sub-text">
           I am always willing to work hard to

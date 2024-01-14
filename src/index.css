@@ -40,11 +40,11 @@ html, body, label {
     @apply mx-auto font-serif text-center text-base md:text-lg lg:text-lg px-4 py-2 w-fit text-white  bg-emerald-600 rounded-full tracking-wide leading-5 
   }
   .hero-main-text {
-    @apply mt-8 mb-2  mx-auto max-w-md text-4xl md:text-6xl lg:text-7xl md:max-w-lg  lg:max-w-4xl text-center font-serif p-2 text-emerald-950 dark:text-white
+    @apply mt-8 mb-2  mx-auto max-w-md text-5xl md:text-6xl lg:text-7xl md:max-w-lg  lg:max-w-4xl text-center font-serif p-2 text-emerald-950 dark:text-white
   }
 
   .hero-sub-text {
-    @apply text-lg md:max-w-lg mb-2 text-emerald-900 lg:max-w-3xl lg:text-xl text-center mx-auto p-3 dark:text-white
+    @apply text-lg md:max-w-lg mb-2 md:font-semibold text-emerald-900 lg:max-w-3xl lg:text-xl text-center mx-auto p-3 dark:text-white
   }
 
   .services-header {
