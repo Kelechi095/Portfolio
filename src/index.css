@@ -44,11 +44,11 @@ html, body, label {
   }
 
   .hero-sub-text {
-    @apply text-lg font-normal md:max-w-lg mb-2 text-emerald-900 lg:max-w-3xl lg:text-xl text-center mx-auto p-3 dark:text-white
+    @apply text-lg font-medium md:max-w-lg mb-2 text-emerald-900 lg:max-w-3xl lg:text-xl text-center mx-auto p-3 dark:text-white
   }
 
   .services-header {
-    @apply mt-8 py-3 px-8 font-semibold  bg-emerald-600 dark:bg-emerald-600  text-white rounded-full text-lg
+    @apply mt-8 mb-4 py-2 px-4 font-semibold  bg-emerald-600 dark:bg-emerald-600  text-white rounded-full text-base
   }
 
   .cards-container {
