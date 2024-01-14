@@ -44,7 +44,7 @@ html, body, label {
   }
 
   .hero-sub-text {
-    @apply text-lg font-medium md:max-w-lg mb-2 text-emerald-900 lg:max-w-3xl lg:text-xl text-center mx-auto p-3 dark:text-white
+    @apply text-lg md:max-w-lg mb-2 text-emerald-900 lg:max-w-3xl lg:text-xl text-center mx-auto p-3 dark:text-white
   }
 
   .services-header {
