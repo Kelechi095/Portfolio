@@ -9,7 +9,7 @@ html, body, label {
 
 @layer components {
   .main {
-    @apply py-8 px-4 lg:px-12 lg:py-6  min-h-screen dark:bg-black;
+    @apply py-8 px-4 lg:px-12 lg:py-6  min-h-screen bg-zinc-50 dark:bg-black;
   }
 
   .logo-title {
@@ -47,23 +47,17 @@ html, body, label {
     @apply text-[15px] font-medium md:max-w-lg mb-2 text-emerald-900 lg:max-w-3xl lg:text-xl text-center mx-auto p-3 dark:text-white
   }
 
-  .hero-button {
-    @apply mt-2 py-3 px-8 font-semibold  bg-emerald-600 hover:bg-emerald-500 dark:bg-emerald-600  dark:hover:bg-emerald-500 text-white  transition duration-300 rounded
+  .services-header {
+    @apply mt-8 py-3 px-8 font-semibold  bg-emerald-600 dark:bg-emerald-600  text-white rounded-full text-lg
   }
 
   .cards-container {
-    @apply md:grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-16 px-2
+    @apply md:grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-2 px-2
   }
 
-  .image-card {
-    @apply h-96 mt-4 max-w-sm md:max-w-md lg:max-w-lg w-full mx-auto relative
+  .card {
+    @apply mt-4 max-w-md rounded-md md:max-w-md lg:max-w-lg w-full mx-auto px-4 py-8 shadow-md bg-white dark:bg-darkBlue
   }
 
-  .image {
-    @apply h-full w-full object-cover rounded-md cursor-pointer
-  }
-
-  .text-overlay-container {
-    @apply absolute inset-0 bg-black bg-opacity-30 rounded-md  flex p-2 flex-col justify-end
-  }
+  
 }

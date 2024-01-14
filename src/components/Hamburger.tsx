@@ -11,7 +11,7 @@ export const Hamburger = ({
   toggleSidebar,
 }: MobileNavProps) => {
 
-  const activeStyles = "text-lg font-bold text-white border-b-2 pb-1 border-white"
+  const activeStyles = "text-lg font-bold text-white border-b-2 border-white"
   const inactiveStyles = "text-lg text-white"
 
   return (
