@@ -40,7 +40,7 @@ html, body, label {
     @apply mx-auto font-serif text-center text-base md:text-lg lg:text-lg px-4 py-2 w-fit text-white  bg-emerald-600 rounded-full tracking-wide leading-5 
   }
   .hero-main-text {
-    @apply mt-8 mb-2  mx-auto max-w-md text-4xl md:text-6xl lg:text-7xl md:max-w-lg  lg:max-w-4xl text-center font-serif p-2 text-emerald-950 dark:text-white
+    @apply mt-8 mb-2  mx-auto max-w-md text-5xl md:text-6xl lg:text-7xl md:max-w-lg  lg:max-w-4xl text-center font-serif p-2 text-emerald-950 dark:text-white
   }
 
   .hero-sub-text {
@@ -48,7 +48,7 @@ html, body, label {
   }
 
   .services-header {
-    @apply mt-8 mb-4 py-2 px-4 md:font-semibold  bg-emerald-600 dark:bg-emerald-600  text-white rounded-full text-base
+    @apply mt-8 mb-4 py-2 px-4 font-medium md:font-semibold  bg-emerald-600 dark:bg-emerald-600  text-white rounded-full text-base
   }
 
   .cards-container {
