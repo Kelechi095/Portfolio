@@ -13,10 +13,10 @@ export default function Home() {
         <h1 className="hero-main-text">
           I'm Kelechi. I'm a fullstack web developer
         </h1>
-        <h3 className="hero-sub-text">
+        {/* <h3 className="hero-sub-text">
           I am smart, hardworking and always willing to do what is required to
           achieve the goals of my employer.
-        </h3>
+        </h3> */}
 
         <div className="flex justify-center">
           <h2 className="services-header">Services I render</h2>
