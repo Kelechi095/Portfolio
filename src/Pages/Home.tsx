@@ -33,9 +33,9 @@ export default function Home() {
           const Icon = project.icon;
           return (
             <div key={project.id} className="card">
-              <Icon size={40} className="text-sky-700 " />
+              <Icon size={40} className="text-sky-600 " />
 
-              <h2 className="text-xl font-semibold mt-6 text-sky-700">{project.text1}</h2>
+              <h2 className="text-xl font-semibold mt-6 text-sky-600">{project.text1}</h2>
               <p className="text-base mt-2 text-sky-950 dark:text-white">{project.text2}</p>
             </div>
           );
