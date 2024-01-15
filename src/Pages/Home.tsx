@@ -1,5 +1,6 @@
 import { projects } from "../../data.ts";
 import { ProjectType } from "../../data.ts";
+import { BiChevronsDown } from "react-icons/bi";
 
 import Nav from "../components/Nav";
 import Wrapper from "../components/Wrapper";
@@ -19,7 +20,10 @@ export default function Home() {
         </h3>
 
         <div className="flex justify-center">
-          <h2 className="services-header">My Services</h2>
+          <h2 className="services-header">
+            <span>My services</span>
+            <BiChevronsDown size={22} />
+          </h2>
         </div>
       </section>
 

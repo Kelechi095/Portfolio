@@ -11,8 +11,8 @@ export const Hamburger = ({
   toggleSidebar,
 }: MobileNavProps) => {
 
-  const activeStyles = "text-lg font-bold text-white border-b-2 border-white"
-  const inactiveStyles = "text-lg text-white"
+  const activeStyles = "text-lg font-bold text-white border-b-2 border-white opacity-95"
+  const inactiveStyles = "text-lg text-white opacity-95"
 
   return (
     <nav className="hidden-nav" onClick={(e) => e.stopPropagation()}>
