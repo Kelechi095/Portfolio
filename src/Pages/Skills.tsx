@@ -22,7 +22,7 @@ const Skills = () => {
       {/*  */}
 
       <section className="grid lg:grid-cols-2 grid-cols-1 gap-4">
-        <div className="bg-white py-2 px-6 dark:bg-zinc-950 shadow-sm rounded">
+        <div className="bg-white p-6 dark:bg-zinc-950 shadow-sm rounded-md">
           <Subtitle label="Frontend" />
           <ul>
             <ListItem text="HTML5" icon={FaHtml5} />
@@ -34,7 +34,7 @@ const Skills = () => {
           </ul>
         </div>
 
-        <div className="bg-white py-2 px-6 dark:bg-zinc-950 shadow-sm roundex">
+        <div className="bg-white p-6 dark:bg-zinc-950 shadow-sm rounded-md">
           <Subtitle label="Backend" />
           <ul>
             <ListItem text="NodeJs" icon={BsFillPauseBtnFill} />
@@ -45,8 +45,8 @@ const Skills = () => {
           </ul>
         </div>
 
-        <div className="bg-white py-2 px-6 dark:bg-zinc-950 shadow-sm rounded">
-          <Subtitle label="Technologies/Libraries" />
+        <div className="bg-white p-6 dark:bg-zinc-950 shadow-sm rounded-md">
+          <Subtitle label="Tools & Libraries" />
           <ul>
             <ListItem text="React Query" icon={BsFillPauseBtnFill} />
             <ListItem text="Redux tool kit" icon={BsFillPauseBtnFill} />
@@ -58,13 +58,13 @@ const Skills = () => {
           </ul>
         </div>
 
-        <div className="bg-white py-2 px-6 dark:bg-zinc-950 shadow-sm roundex">
+        <div className="bg-white p-6 dark:bg-zinc-950 shadow-sm rounded-md">
           <Subtitle label="Soft Skills" />
           <ul>
             <ListItem text="Good communication skills" icon={GiSkills} />
             <ListItem text="Critical thinking and problem solving" icon={GiSkills} />
             <ListItem text="Team work and collaboration" icon={GiSkills} />
-            <ListItem text="Professionalism and storng work ethic" icon={GiSkills} />
+            <ListItem text="Strong work ethic" icon={GiSkills} />
             <ListItem text="Flexibility and adaptability" icon={GiSkills} />
             <ListItem text="Time management skills" icon={GiSkills} />
           </ul>

@@ -48,7 +48,7 @@ html, body, label {
   }
 
   .services-header {
-    @apply mt-8 mb-4 py-2 px-4 font-medium md:font-semibold  bg-emerald-600 dark:bg-emerald-600  text-white rounded-full text-base flex items-center gap-2
+    @apply mt-8 mb-4 py-2 px-4 font-medium md:font-semibold  bg-emerald-600 dark:bg-emerald-600  text-white rounded text-base flex items-center gap-2
   }
 
   .cards-container {

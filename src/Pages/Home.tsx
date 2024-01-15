@@ -12,16 +12,16 @@ export default function Home() {
       <section className="mt-24">
         <h2 className="hero-label">I'm open for hire! Please reach out</h2>
         <h1 className="hero-main-text">
-          I'm a Fullstack Web Developer
+          Awoms Kelechi
         </h1>
-        <h3 className="hero-sub-text">
-          I am always willing to work hard to
-          achieve the goals of my employer.
-        </h3>
+        <h1 className="mt-1 mb-2 mx-auto max-w-md text-3xl md:text-2xl lg:text-5xl md:max-w-lg  lg:max-w-4xl text-center p-2 text-emerald-950 tracking-wide dark:text-white">
+          Web Developer
+        </h1>
+        
 
         <div className="flex justify-center">
           <h2 className="services-header">
-            <span>My services</span>
+            <span>Services I Render</span>
             <BiChevronsDown size={22} />
           </h2>
         </div>

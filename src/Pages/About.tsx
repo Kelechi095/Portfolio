@@ -9,7 +9,7 @@ const About = () => {
       <Nav />
       <Title label="ABOUT MYSELF" />
       <Subtitle label="Basic Info:"/>
-      <p className="dark:text-white font-normal text-emerald-900">
+      <p className="dark:text-white font-normal text-emerald-900 mb-6">
         My name is Awoms Kelechi. I am a goal-driven, ambitious, and seasoned developer with experience in
         shipping features for large-scale and real-time applications, as well as
         building consumer-facing products. I am actively seeking a frontend role
@@ -18,7 +18,7 @@ const About = () => {
       </p>
       
       <Subtitle label="Work Experience:"/>
-      <p className=" dark:text-white font-normal text-emerald-900">
+      <p className=" dark:text-white font-normal text-emerald-900 mb-6">
         With my experience in the industry, I have developed strong
         problem-solving skills, attention to detail, and the ability to work
         independently. I am confident in my ability to tackle complex challenges
@@ -27,7 +27,7 @@ const About = () => {
         me an ideal candidate for any team in need of a dynamic and
         result-oriented individual.
       </p>
-      <p className=" dark:text-white font-normal text-emerald-900">
+      <p className=" dark:text-white font-normal text-emerald-900 mb-6">
         I am currently working as a freelancer. In this role, I have been responsible for architecting and
         building the frontend of new features, integrating data from various
         backend services and databases into responsive web apps, translating
@@ -37,7 +37,7 @@ const About = () => {
         stories and write tests, and participating in code reviews to ensure
         adherence to best practices and coding standards.
       </p>
-      <p className=" dark:text-white font-normal text-emerald-900">
+      <p className=" dark:text-white font-normal text-emerald-900 mb-6">
         My technical skills include HTML, CSS, JavaScript, TypeScript, React.js,
         Next.js, MongoDB, Tailwind CSS, Git, Firebase, Redux/Redux-Toolkit,
         React-Query, Zod, and Next-Auth/Auth.js. These skills cover a broad
@@ -46,7 +46,7 @@ const About = () => {
       </p>
       
       <Subtitle label="Hobbies:"/>
-      <p className=" dark:text-white font-normal text-emerald-900">
+      <p className=" dark:text-white font-normal text-emerald-900 mb-6">
         Beyond my professional life, I have a range of interests which includes
         reading, traveling, and listening to music. I have obtained
         certifications in Responsive Web Design and Frontend Development
