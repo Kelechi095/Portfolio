@@ -17,7 +17,7 @@ const About = () => {
         ability to work on diverse projects.
       </p>
       
-      <Subtitle label="Working Experience:"/>
+      <Subtitle label="Work Experience:"/>
       <p className=" dark:text-white font-normal text-emerald-900">
         With my experience in the industry, I have developed strong
         problem-solving skills, attention to detail, and the ability to work
