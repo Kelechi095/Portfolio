@@ -10,7 +10,6 @@ import { TbBrandNextjs } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io5";
-import { BiChevronsRight } from "react-icons/bi";
 import { GiSkills } from "react-icons/gi";
 
 
