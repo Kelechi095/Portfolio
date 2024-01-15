@@ -33,7 +33,7 @@ html, body, label {
   }
 
   .nav-button {
-    @apply text-xs py-2 px-3  lg:text-sm text-white  bg-emerald-600 hover:bg-emerald-500 dark:bg-emerald-600 dark:hover:bg-emerald-500 transition duration-300  font-semibold rounded-full
+    @apply text-xs py-2 px-3  lg:text-sm text-white  bg-emerald-600 hover:bg-emerald-500 dark:bg-emerald-600 dark:hover:bg-emerald-500 transition duration-300  font-semibold rounded-full flex items-center gap-2
   }
 
   .hero-label {

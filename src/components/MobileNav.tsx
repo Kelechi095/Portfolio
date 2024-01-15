@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
 import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
+import { FaDownload } from "react-icons/fa";
 
 interface NavbarProps {
   changeTheme: () => void;
@@ -98,7 +99,10 @@ const MobileNav = ({
           />
         )}
 
-        <button className="nav-button">Resume</button>
+        <button className="nav-button">
+          <FaDownload />
+          <span>Resume</span>
+        </button>
       </ul>
     </nav>
   );
