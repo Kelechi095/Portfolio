@@ -13,15 +13,15 @@ html, body, label {
   }
 
   .logo-title {
-    @apply font-mono tracking-wide text-xl text-emerald-900 font-bold dark:text-white
+    @apply font-mono tracking-wide text-xl text-sky-900 font-bold dark:text-white
   }
 
   .hidden-nav {
-    @apply lg:hidden w-full px-4 py-8 shadow-sm bg-sky-600 absolute top-0 left-0 h-screen;
+    @apply lg:hidden w-full px-4 py-8 shadow-sm bg-sky-500 absolute top-0 left-0 h-screen;
   }
 
   .hidden-nav-ul {
-    @apply dark:bg-sky-600 flex flex-col justify-center items-center gap-10
+    @apply dark:bg-sky-500 flex flex-col justify-center items-center gap-10
   }
 
   .nav-open {
@@ -33,11 +33,11 @@ html, body, label {
   }
 
   .nav-button {
-    @apply text-xs py-2 px-3  lg:text-sm text-white  bg-sky-600 hover:bg-sky-500 dark:bg-sky-600 dark:hover:bg-emerald-500 transition duration-300  font-semibold rounded-full flex items-center gap-2
+    @apply text-xs py-2 px-3  lg:text-sm text-white  bg-sky-500 hover:bg-sky-400 dark:bg-sky-500 dark:hover:bg-emerald-500 transition duration-300  font-semibold rounded-full flex items-center gap-2
   }
 
   .hero-label {
-    @apply mx-auto font-serif text-center textbase md:text-lg lg:text-lg px-4 py-2 w-fit text-white  bg-sky-600 rounded-full tracking-wide leading-5
+    @apply mx-auto font-serif text-center textbase md:text-lg lg:text-lg px-4 py-2 w-fit text-white  bg-sky-500 rounded-full tracking-wide leading-5
   }
   .hero-main-text {
     @apply mt-8 mb-2  mx-auto max-w-md text-5xl md:text-6xl lg:text-7xl md:max-w-lg  lg:max-w-4xl text-center font-serif p-2 text-sky-950 dark:text-white
@@ -48,7 +48,7 @@ html, body, label {
   }
 
   .services-header {
-    @apply mt-8 mb-4 py-2 px-4 font-medium md:font-semibold  bg-sky-700 dark:bg-sky-700  text-white rounded text-base flex items-center gap-2
+    @apply mt-8 mb-4 py-2 px-4 font-medium md:font-semibold  bg-sky-700 dark:bg-sky-500  text-white rounded text-base flex items-center gap-2
   }
 
   .cards-container {
