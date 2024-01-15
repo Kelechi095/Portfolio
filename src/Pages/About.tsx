@@ -10,7 +10,7 @@ const About = () => {
       <Title label="ABOUT MYSELF" />
       <Subtitle label="Basic Info:"/>
       <p className="dark:text-white font-normal text-emerald-900 mb-6">
-        My name is Awoms Kelechi. I am a goal-driven, ambitious, and seasoned developer with experience in
+        I am a fullstack web developer fron Nigeria.  I am goal-driven, ambitious, and seasoned developer with experience in
         shipping features for large-scale and real-time applications, as well as
         building consumer-facing products. I am actively seeking a frontend role
         in a growing company where I can apply my creative mindset and keen
