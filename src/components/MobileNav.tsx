@@ -16,9 +16,9 @@ const MobileNav = ({
   theme,
   isOpen,
 }: NavbarProps) => {
-  const activeStyles = "text-emerald-600 dark:text-emerald-600";
+  const activeStyles = "text-cyan-600 dark:text-cyan-600";
   const inactiveStyles =
-    "text-slate-800 hover:text-emerald-600 dark:text-zinc-100 dark:hover:text-emerald-500";
+    "text-slate-800 hover:text-cyan-600 dark:text-zinc-100 dark:hover:text-cyan-500";
 
   return (
     <nav
@@ -89,12 +89,12 @@ const MobileNav = ({
       <ul className="flex justify-between items-center gap-4">
         {theme === "light" ? (
           <BsFillMoonFill
-            className="cursor-pointer hover:text-emerald-600"
+            className="cursor-pointer hover:text-cyan-600"
             onClick={changeTheme}
           />
         ) : (
           <BsFillSunFill
-            className="text-white cursor-pointer hover:text-emerald-600"
+            className="text-white cursor-pointer hover:text-cyan-600"
             onClick={changeTheme}
           />
         )}
