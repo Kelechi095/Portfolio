@@ -3,6 +3,7 @@ import { ProjectType } from "../../data.ts";
 
 import Nav from "../components/Nav";
 import Wrapper from "../components/Wrapper";
+import {BiChevronsDown} from 'react-icons/bi'
 
 export default function Home() {
   return (
@@ -19,16 +20,15 @@ export default function Home() {
         </h1>
         
 
-        {/* <div className="flex justify-center">
-          <h2 className="services-header">
+        <div className="flex justify-center">
+          <h2 className="lg:mt-20 mt-10 mx-2 mb-1 py-2 px-4 font-medium md:font-semibold  bg-cyan-600 dark:bg-cyan-600  text-white rounded-full text-base flex items-center w-fit">
             <span>Services I Render</span>
             <BiChevronsDown size={22} />
           </h2>
-        </div> */}
+        </div>
       </section>
 
       
-        <h2 className="services-header">My Services</h2>
       <section className="cards-container">
         {projects.map((project: ProjectType) => {
           const Icon = project.icon;
