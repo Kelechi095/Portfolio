@@ -39,9 +39,7 @@ html, body, label {
   .hero-label {
     @apply mx-auto font-serif text-center text-base md:text-lg lg:text-lg px-4 py-2 w-fit text-white  bg-cyan-600 rounded-full tracking-wide leading-5
   }
-  .hero-main-text {
-    @apply text-5xl md:text-6xl lg:text-7xl text-cyan-600
-  }
+
 
   .hero-sub-text {
     @apply text-lg md:max-w-lg tracking-wide mb-2 font-medium md:font-semibold text-sky-900 lg:max-w-3xl lg:text-xl mx-auto p-3 

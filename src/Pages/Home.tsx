@@ -8,13 +8,13 @@ export default function Home() {
   return (
     <Wrapper>
       <Nav />
-      <section className="mt-14">
+      <section className="mt-24">
         {/* <h2 className="hero-label">I'm open for hire! Please reach out</h2> */}
         
-        <h1 className="hero-main-text">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl text-cyan-600 font-serif text-center">
           I am Kelechi
         </h1>
-        <h1 className="text-3xl mt-2 md:text-2xl lg:text-5xl text-cyan-800 tracking-wide dark:text-white">
+        <h1 className="text-2xl mt-2 md:text-2xl lg:text-5xl text-cyan-800 tracking-wide dark:text-white text-center">
           Fullstack Web Developer
         </h1>
         
