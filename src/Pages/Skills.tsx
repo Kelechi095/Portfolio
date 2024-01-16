@@ -11,6 +11,7 @@ import { FaReact } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io5";
 import { GiSkills } from "react-icons/gi";
+import { FaNodeJs } from "react-icons/fa";
 
 
 
@@ -37,7 +38,7 @@ const Skills = () => {
         <div className="bg-white p-6 dark:bg-zinc-950 shadow-sm rounded-md">
           <Subtitle label="Backend" />
           <ul>
-            <ListItem text="NodeJs" icon={BsFillPauseBtnFill} />
+            <ListItem text="NodeJs" icon={FaNodeJs} />
             <ListItem text="Express" icon={BsFillPauseBtnFill} />
             <ListItem text="PostgreSQL" icon={BsFillPauseBtnFill} />
             <ListItem text="MongoDB" icon={BsFillPauseBtnFill} />
