@@ -1,5 +1,4 @@
 import { createContext, useState, useEffect } from "react";
-import React from "react";
 
 type CartContextType = {
   isOpen: boolean;
