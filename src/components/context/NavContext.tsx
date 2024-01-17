@@ -3,9 +3,9 @@ import React from "react";
 
 type CartContextType = {
   isOpen: boolean;
-  setIsOpen: React.Dispatch<React.SetStateAction<boolean>>
   theme: string;
-  toggleSidebar: () => void;
+  openSidebar: () => void;
+  closeSidebar: () => void;
   changeTheme: () => void;
 };
 
@@ -17,7 +17,7 @@ interface Props {
 
 export const NavContextProvider = (props: Props) => {
   const [theme, setTheme] = useState("light");
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   useEffect(() => {
     if (localStorage.getItem("theme") === null) {
@@ -46,14 +46,19 @@ export const NavContextProvider = (props: Props) => {
     }
   };
 
-  const toggleSidebar = () => {
-    setIsOpen(!isOpen);
+  const openSidebar = () => {
+    setIsOpen(true);
   };
+
+  const closeSidebar = () => {
+    setIsOpen(false)
+  }
   
 
   const value = {
     changeTheme,
-    toggleSidebar,
+    openSidebar,
+    closeSidebar,
     theme,
     isOpen,
     setIsOpen

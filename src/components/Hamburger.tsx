@@ -1,25 +1,21 @@
 import { LiaTimesSolid } from "react-icons/lia";
 import { NavLink } from "react-router-dom";
+import { useNav } from "../hooks/useNav";
 
-interface MobileNavProps {
-  changeTheme: () => void;
-  toggleSidebar: () => void;
-  theme: string;
-}
 
-export const Hamburger = ({
-  toggleSidebar,
-}: MobileNavProps) => {
+
+export const Hamburger = () => {
+  const {closeSidebar} = useNav()
 
   const activeStyles = "text-lg font-bold text-white border-b-2 border-white opacity-95"
   const inactiveStyles = "text-lg text-white opacity-95"
 
   return (
-    <nav className="hidden-nav" onClick={(e) => e.stopPropagation()}>
+    <nav className="hidden-nav">
       <LiaTimesSolid
         size={30}
         className="cursor-pointer text-white"
-        onClick={toggleSidebar}
+        onClick={closeSidebar}
       />
       <ul className="hidden-nav-ul">
         <NavLink
@@ -27,7 +23,7 @@ export const Hamburger = ({
           className={({ isActive }) =>
             isActive ? activeStyles : inactiveStyles
           }
-          onClick={toggleSidebar}
+          onClick={closeSidebar}
         >
           <li className="cursor-pointer items-center">
             Home
@@ -38,7 +34,7 @@ export const Hamburger = ({
           className={({ isActive }) =>
           isActive ? activeStyles : inactiveStyles
           }
-          onClick={toggleSidebar}
+          onClick={closeSidebar}
         >
           <li className="cursor-pointer items-center">
             About me
@@ -49,7 +45,7 @@ export const Hamburger = ({
           className={({ isActive }) =>
           isActive ? activeStyles : inactiveStyles
           }
-          onClick={toggleSidebar}
+          onClick={closeSidebar}
         >
           <li className="cursor-pointer items-center ">
             Skills
@@ -60,7 +56,7 @@ export const Hamburger = ({
           className={({ isActive }) =>
           isActive ? activeStyles : inactiveStyles
           }
-          onClick={toggleSidebar}
+          onClick={closeSidebar}
         >
           <li className="cursor-pointer items-center">
             Projects
@@ -71,7 +67,7 @@ export const Hamburger = ({
           className={({ isActive }) =>
           isActive ? activeStyles : inactiveStyles
           }
-          onClick={toggleSidebar}
+          onClick={closeSidebar}
         >
           <li className="cursor-pointer items-center">
             Contact me

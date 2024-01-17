@@ -9,23 +9,23 @@ html, body, label {
 
 @layer components {
   .main {
-    @apply py-8 px-4 lg:px-12 lg:py-6  min-h-screen bg-zinc-50 dark:bg-black;
+    @apply py-8 px-4 lg:px-12 lg:py-6  min-h-screen bg-zinc-50 dark:bg-gray-900;
   }
 
   .logo-title {
-    @apply font-mono tracking-wide text-xl text-sky-900 font-bold dark:text-white
+    @apply font-mono tracking-wide text-xl text-cyan-900 font-bold dark:text-white
   }
 
   .hidden-nav {
-    @apply lg:hidden w-full px-4 py-8 shadow-sm bg-cyan-500 absolute top-0 left-0 h-screen;
+    @apply lg:hidden w-full px-4 py-8 shadow-sm bg-cyan-700 absolute top-0 left-0 h-screen z-20;
   }
 
   .hidden-nav-ul {
-    @apply dark:bg-blue-600 flex flex-col justify-center items-center gap-10
+    @apply dark:bg-cyan-700 flex flex-col justify-center items-center gap-10
   }
 
   .nav-open {
-    @apply py-6 px-4 flex items-center dark:border-none justify-between 
+    @apply py-6 px-4 flex items-center dark:border-none justify-between
   }
 
   .nav-li {
@@ -33,16 +33,16 @@ html, body, label {
   }
 
   .nav-button {
-    @apply text-xs py-2 px-3  lg:text-sm text-white  bg-cyan-600 hover:bg-cyan-400 dark:bg-cyan-600 dark:hover:bg-blue-400 transition duration-300  font-semibold rounded-full flex items-center gap-2
+    @apply text-xs py-2 px-3  lg:text-sm text-white  bg-cyan-600 hover:bg-cyan-400 dark:bg-cyan-700 dark:hover:bg-blue-500 transition duration-300  font-semibold rounded-full flex items-center gap-2
   }
 
   .hero-label {
-    @apply mx-auto font-serif text-center text-base md:text-lg lg:text-lg px-4 py-2 w-fit text-white  bg-cyan-600 rounded-full tracking-wide leading-5
+    @apply mx-auto mb-4 font-serif text-center text-base md:text-lg lg:text-lg px-4 py-2 w-fit text-white  bg-cyan-700 rounded-full tracking-wide leading-5
   }
 
 
   .hero-sub-text {
-    @apply text-lg md:max-w-lg tracking-wide mb-2 font-medium md:font-semibold text-sky-900 lg:max-w-3xl lg:text-xl mx-auto p-3 
+    @apply text-lg md:max-w-lg tracking-wide mb-2 font-medium md:font-semibold text-cyan-900 lg:max-w-3xl lg:text-xl mx-auto p-3 
   }
 
   .services-header {
@@ -54,7 +54,7 @@ html, body, label {
   }
 
   .card {
-    @apply mt-4 max-w-md rounded-md md:max-w-md lg:max-w-lg w-full mx-auto px-4 py-8 shadow-md bg-white dark:bg-zinc-900
+    @apply mt-4 max-w-md rounded-md md:max-w-md lg:max-w-lg w-full mx-auto px-4 py-8 shadow-md bg-white dark:bg-slate-800
   }
 
   
