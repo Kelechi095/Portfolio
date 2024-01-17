@@ -25,12 +25,12 @@ export default function Home() {
       
       <section className="cards-container">
         {projects.map((project: ProjectType) => {
-          const Icon = project.icon;
+          /* const Icon = project.icon; */
           return (
             <div key={project.id} className="card">
-              <Icon size={40} className="text-blue-300 " />
+              {/* <Icon size={40} className="text-blue-200 " /> */}
 
-              <h2 className="text-xl font-semibold mt-6 text-blue-300">{project.text1}</h2>
+              <h2 className="text-xl font-semibold mt-6 text-blue-200">{project.text1}</h2>
               <p className="text-base mt-2 text-neutral-100 ">{project.text2}</p>
             </div>
           );

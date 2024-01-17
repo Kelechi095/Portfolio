@@ -54,7 +54,7 @@ html, body, label {
   }
 
   .card {
-    @apply mt-4 max-w-md rounded-md md:max-w-md lg:max-w-lg w-full mx-auto px-4 py-8 shadow-md bg-white dark:bg-slate-800
+    @apply mt-4 max-w-md rounded-md md:max-w-md lg:max-w-lg w-full mx-auto px-4 py-2 shadow-md bg-white dark:bg-slate-800
   }
 
   
