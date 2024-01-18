@@ -9,7 +9,7 @@ html, body, label {
 
 @layer components {
   .main {
-    @apply py-8 px-4 lg:px-12 lg:py-6  min-h-screen bg-zinc-50 dark:bg-gray-900;
+    @apply p-8 md:py-10 md:px-20  min-h-screen bg-zinc-50 dark:bg-gray-900;
   }
 
   .logo-title {
@@ -50,11 +50,11 @@ html, body, label {
   }
 
   .cards-container {
-    @apply md:grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-1 px-2
+    @apply md:grid grid-cols-1 gap-4 mt-1
   }
 
   .card {
-    @apply mt-4 max-w-md rounded-md md:max-w-md lg:max-w-lg w-full mx-auto px-4 py-2 shadow-md bg-white dark:bg-slate-800
+    @apply mt-2 rounded md:max-w-md lg:max-w-lg w-full p-4 bg-white dark:bg-slate-800 justify-self-end
   }
 
   

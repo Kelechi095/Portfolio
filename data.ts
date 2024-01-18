@@ -9,27 +9,21 @@ export type ProjectType = {
   };
 
 export const projects: ProjectType[] = [
+  
   {
     id: 1,
-    icon: BsFileEarmarkPerson,
-    text1: "Web Design",
-    text2: "I help businesses and companies establish a strong online presence and effectively communicate their brand to their target audience."
-  },
-
-  {
-    id: 2,
     icon: Bs0CircleFill,
     text1: "Web Development",
     text2: "With usability, accessibility & functionality in mind, I build simple, flexible, mobile responsive & custom websites for individuals & small/medium sized company",
   },
   {
-    id: 3,
+    id: 2,
     icon: BsFileEarmarkPerson,
     text1: "Api Integration",
     text2: "I can create and integrate APIs into web apps that help keep data in sync, automate tasks, enhance productivity & drive more revenue.",
   },
   {
-    id: 4,
+    id: 3,
     icon: BsFileEarmarkPerson,
     text1: "Continuous Support",
     text2: "I provide continous support for existing projects which may include fixes, updates and development of additional functionality or features that will make the product more marketable",

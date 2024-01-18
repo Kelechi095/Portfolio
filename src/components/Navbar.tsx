@@ -1,21 +1,21 @@
 import { NavLink } from "react-router-dom";
 //import { FaDownload } from "react-icons/fa";
 
-const MobileNav = () => {
-  const activeStyles = "text-cyan-600 dark:text-cyan-600 text-xs";
+const Navbar = () => {
+  const activeStyles = "text-blue-300 text-xs";
   const inactiveStyles =
     "text-slate-800 hover:text-cyan-600 dark:text-zinc-100 dark:hover:text-neutral-400";
 
   return (
     <nav>
-      <ul className="flex justify-start text-xs gap-8 text-slate-800 items-center">
+      <ul className="flex justify-start text-sm md:text-base gap-8 text-slate-800 items-center">
         <NavLink
           to="/"
           className={({ isActive }) =>
             isActive ? activeStyles : inactiveStyles
           }
         >
-          <li className="cursor-pointer items-center font-semibold text-base">
+          <li className="cursor-pointer items-center font-semibold">
             Home
           </li>
         </NavLink>
@@ -25,7 +25,7 @@ const MobileNav = () => {
             isActive ? activeStyles : inactiveStyles
           }
         >
-          <li className="cursor-pointer items-center font-semibold text-base">
+          <li className="cursor-pointer items-center font-semibold">
             About me
           </li>
         </NavLink>
@@ -35,7 +35,7 @@ const MobileNav = () => {
             isActive ? activeStyles : inactiveStyles
           }
         >
-          <li className="cursor-pointer items-center font-semibold text-base">
+          <li className="cursor-pointer items-center font-semibold">
             Skills
           </li>
         </NavLink>
@@ -45,7 +45,7 @@ const MobileNav = () => {
             isActive ? activeStyles : inactiveStyles
           }
         >
-          <li className="cursor-pointer items-center font-semibold text-base">
+          <li className="cursor-pointer items-center font-semibold">
             Projects
           </li>
         </NavLink>
@@ -55,7 +55,7 @@ const MobileNav = () => {
             isActive ? activeStyles : inactiveStyles
           }
         >
-          <li className="cursor-pointer items-center font-semibold text-base">
+          <li className="cursor-pointer items-center font-semibold">
             Contact me
           </li>
         </NavLink>
@@ -64,4 +64,4 @@ const MobileNav = () => {
   );
 };
 
-export default MobileNav;
+export default Navbar;

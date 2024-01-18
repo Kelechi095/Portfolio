@@ -1,14 +1,9 @@
-
-import MobileNav from "./MobileNav";
+import Navbar from "./Navbar";
 
 const Nav = () => {
-
-    
   return (
     <>
-      <MobileNav
-        
-      />
+      <Navbar />
     </>
   );
 };

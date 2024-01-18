@@ -33,7 +33,7 @@ const Skills = () => {
       {/*  */}
 
       <section className="grid lg:grid-cols-2 grid-cols-1 gap-4">
-        <div className="p-6 bg-slate-800 shadow-sm rounded-md">
+        <div className="py-2 px-6 bg-slate-800 shadow-sm rounded-md">
           <Subtitle label="Frontend" />
           <ul>
             <ListItem text="HTML5" src={Html} />
@@ -45,7 +45,7 @@ const Skills = () => {
           </ul>
         </div>
 
-        <div className="p-6 bg-slate-800 shadow-sm rounded-md">
+        <div className="py-2 px-6 bg-slate-800 shadow-sm rounded-md">
           <Subtitle label="Backend" />
           <ul>
             <ListItem text="NodeJs" src={Node} />
@@ -56,7 +56,7 @@ const Skills = () => {
           </ul>
         </div>
 
-        <div className="bg-gray-800 p-6 shadow-sm rounded-md">
+        <div className="bg-slate-800 py-2 px-6 shadow-sm rounded-md">
           <Subtitle label="Tools & Libraries" />
           <ul>
             <ListItem text="React Query" src="" />
@@ -69,7 +69,7 @@ const Skills = () => {
           </ul>
         </div>
 
-        <div className=" p-6 bg-slate-800 shadow-sm rounded-md">
+        <div className=" py-2 px-6 bg-slate-800 shadow-sm rounded-md">
           <Subtitle label="Soft Skills" />
           <ul>
             <ListItem text="Good communication skills" icon={GiSkills} blue/>
