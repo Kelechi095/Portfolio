@@ -2,9 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
-html, body, label {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+html,
+body,
+label {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @layer components {
@@ -13,36 +14,30 @@ html, body, label {
   }
 
   .logo-title {
-    @apply font-mono tracking-wide text-xl font-bold text-white
+    @apply font-mono tracking-wide text-xl font-bold text-white;
   }
 
-  
   .nav-li {
-    @apply text-[15px] hidden font-semibold tracking-normal lg:block text-slate-100 
+    @apply text-[15px] hidden font-semibold tracking-normal lg:block text-slate-100;
   }
 
   .nav-button {
-    @apply text-xs py-2 px-3  lg:text-sm text-white  bg-cyan-600 hover:bg-cyan-400 dark:bg-cyan-700 dark:hover:bg-blue-500 transition duration-300  font-semibold rounded-full flex items-center gap-2
+    @apply text-xs py-2 px-3  lg:text-sm text-white  bg-cyan-600 hover:bg-cyan-400 dark:bg-cyan-700 dark:hover:bg-blue-500 transition duration-300  font-semibold rounded-full flex items-center gap-2;
   }
 
   .hero-label {
-    @apply mx-auto mb-4 font-serif text-center text-base md:text-lg lg:text-lg px-4 py-2 w-fit text-white  bg-cyan-700 rounded-full tracking-wide leading-5
+    @apply mx-auto mb-4 font-serif text-center text-base md:text-lg lg:text-lg px-4 py-2 w-fit text-white  bg-cyan-700 rounded-full tracking-wide leading-5;
   }
-
 
   .hero-sub-text {
-    @apply text-lg md:max-w-lg tracking-wide mb-2 font-medium md:font-semibold text-cyan-900 lg:max-w-3xl lg:text-xl mx-auto p-3 
+    @apply text-lg md:max-w-lg tracking-wide mb-2 font-medium md:font-semibold text-cyan-900 lg:max-w-3xl lg:text-xl mx-auto p-3;
   }
 
-  .
-
   .cards-container {
-    @apply md:grid grid-cols-1 gap-4 mt-1
+    @apply md:grid grid-cols-1 gap-4 mt-1;
   }
 
   .card {
-    @apply mt-2 rounded md:max-w-md lg:max-w-lg w-full p-4 :bg-slate-800 justify-self-end
+    @apply mt-2 md:max-w-md lg:max-w-lg w-full rounded-md p-4 bg-slate-800 justify-self-end hover:translate-x-2 cursor-pointer transition duration-300;
   }
-
-  
 }

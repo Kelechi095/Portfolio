@@ -2,7 +2,6 @@
 import ListItem from "../components/ListItem";
 import Nav from "../components/Nav";
 import Subtitle from "../components/Subtitle";
-import Title from "../components/Title";
 import Wrapper from "../components/Wrapper";
 import { GiSkills } from "react-icons/gi";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -22,6 +21,8 @@ import Tailwind from '../public/images/tailwind.png'
 import Git from '../public/images/git.png'
 import Npm from '../public/images/npm.png'
 import Jest from '../public/images/jest.png'
+import Axios from '../public/images/axios.png'
+import ReactQuery from '../public/images/reactquery.png'
 
 
 
@@ -29,10 +30,10 @@ const Skills = () => {
   return (
     <Wrapper>
       <Nav />
-      <Title label="SKILLS" />
+      {/* <Title label="SKILLS" /> */}
       {/*  */}
 
-      <section className="grid lg:grid-cols-2 grid-cols-1 gap-4">
+      <section className="grid lg:grid-cols-2 grid-cols-1 gap-4 mt-12">
         <div className="py-2 px-6 bg-slate-800 shadow-sm rounded-md">
           <Subtitle label="Frontend" />
           <ul>
@@ -56,13 +57,13 @@ const Skills = () => {
           </ul>
         </div>
 
-        <div className="bg-slate-800 py-2 px-6 shadow-sm rounded-md">
+        <div className="bg-slate-800 py-2 px-6 shadow-sm rounded-md hover:scale-y-100">
           <Subtitle label="Tools & Libraries" />
           <ul>
-            <ListItem text="React Query" src="" />
+            <ListItem text="React Query" src={ReactQuery} />
             <ListItem text="Redux tool kit" src={Redux} />
             <ListItem text="Tailwind CSS" src={Tailwind} />
-            <ListItem text="Axios" src="" />
+            <ListItem text="Axios" src={Axios} />
             <ListItem text="Git" src={Git} />
             <ListItem text="NPM" src={Npm} />
             <ListItem text="Jest" src={Jest} />
