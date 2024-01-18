@@ -33,7 +33,7 @@ const Skills = () => {
       {/* <Title label="SKILLS" /> */}
       {/*  */}
 
-      <section className="grid lg:grid-cols-2 grid-cols-1 gap-4 mt-8">
+      <section className="grid lg:grid-cols-2 grid-cols-1 gap-4 my-8">
         <div className="py-2 px-6 bg-slate-800 shadow-sm rounded-md">
           <Subtitle label="Frontend" />
           <ul>

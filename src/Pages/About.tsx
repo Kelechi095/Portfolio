@@ -7,8 +7,7 @@ const About = () => {
   return (
     <Wrapper>
       <Navbar />
-      {/* <Title label="ABOUT MYSELF" /> */}
-      <div className="mt-12">
+      <div className="my-12">
 
       <Subtitle label="Basic Info:"/>
       <p className="dark:text-white text-sm md:text-[17px] text-neutral-100 mb-6">

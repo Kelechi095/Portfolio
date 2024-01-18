@@ -36,9 +36,9 @@ export default function Home() {
         </div>
         <div className="hidden md:grid items-center">
           <div className="">
-            <h2 className="hidden md:block text-base md:text-xl text-blue-400 md:text-end font-medium">
+            {/* <h2 className="hidden md:block text-base md:text-xl text-blue-400 md:text-end font-medium">
               My Services
-            </h2>
+            </h2> */}
             <section className="cards-container">
               {projects.map((project: ProjectType) => {
                 /* const Icon = project.icon; */
