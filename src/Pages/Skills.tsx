@@ -1,6 +1,6 @@
 
 import ListItem from "../components/ListItem";
-import Nav from "../components/Nav";
+import Navbar from "../components/Navbar";
 import Subtitle from "../components/Subtitle";
 import Wrapper from "../components/Wrapper";
 import { GiSkills } from "react-icons/gi";
@@ -29,11 +29,11 @@ import ReactQuery from '../public/images/reactquery.png'
 const Skills = () => {
   return (
     <Wrapper>
-      <Nav />
+      <Navbar />
       {/* <Title label="SKILLS" /> */}
       {/*  */}
 
-      <section className="grid lg:grid-cols-2 grid-cols-1 gap-4 mt-12">
+      <section className="grid lg:grid-cols-2 grid-cols-1 gap-4 mt-8">
         <div className="py-2 px-6 bg-slate-800 shadow-sm rounded-md">
           <Subtitle label="Frontend" />
           <ul>

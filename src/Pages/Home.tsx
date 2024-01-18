@@ -1,7 +1,6 @@
 import { projects } from "../../data.ts";
 import { ProjectType } from "../../data.ts";
-
-import Nav from "../components/Nav";
+import Navbar from "../components/Navbar.tsx";
 import Wrapper from "../components/Wrapper";
 
 export default function Home() {
@@ -9,8 +8,8 @@ export default function Home() {
     <Wrapper>
       <div className="grid md:grid-cols-2 grid-cols-1 gap-6 md:gap-1">
         <div className="h-screen">
-          <Nav />
-          <section className="mt-24">
+          <Navbar />
+          <section className="mt-12">
             <p className="text-lg md:text-xl font-semibold lg:text-3xl text-[#fff]">
               Hi there!
             </p>
@@ -35,9 +34,9 @@ export default function Home() {
             </button>
           </section>
         </div>
-        <div className="grid items-center">
+        <div className="hidden md:grid items-center">
           <div className="">
-            <h2 className="text-base md:text-xl text-blue-400 md:text-end font-medium">
+            <h2 className="hidden md:block text-base md:text-xl text-blue-400 md:text-end font-medium">
               My Services
             </h2>
             <section className="cards-container">
