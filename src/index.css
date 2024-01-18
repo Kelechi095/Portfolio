@@ -34,7 +34,7 @@ label {
   }
 
   .cards-container {
-    @apply md:grid grid-cols-1 gap-4 mt-1;
+    @apply md:grid grid-cols-1 gap-4;
   }
 
   .card {

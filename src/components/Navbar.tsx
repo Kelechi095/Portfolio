@@ -7,8 +7,8 @@ const Navbar = () => {
     "text-slate-800 hover:text-cyan-600 text-zinc-100 hover:text-neutral-400";
 
   return (
-    <nav>
-      <ul className="flex justify-start text-base gap-8 text-slate-800 items-center">
+    <nav className="fixed top-0 z-10 bg-gray-900 h-20 w-full flex items-center">
+      <ul className="flex justify-start text-sm md:text-base gap-8 text-slate-800 items-center">
         <NavLink
           to="/"
           className={({ isActive }) =>
@@ -17,6 +17,16 @@ const Navbar = () => {
         >
           <li className="cursor-pointer items-center font-semibold">
             Home
+          </li>
+        </NavLink>
+        <NavLink
+          to="/about"
+          className={({ isActive }) =>
+            isActive ? activeStyles : inactiveStyles
+          }
+        >
+          <li className="cursor-pointer items-center font-semibold">
+            About
           </li>
         </NavLink>
         

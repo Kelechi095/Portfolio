@@ -14,7 +14,7 @@ export default function Home() {
             <p className="text-lg md:text-xl font-semibold lg:text-3xl text-[#fff]">
               Hi there!
             </p>
-            <h1 className="max-w-[50%] text-5xl font-semibold md:text-6xl md:font-bold lg:text-7xl text-[#fff]">
+            <h1 className="max-w-[50%] md:max-w-[80%] text-5xl font-semibold md:text-6xl md:font-bold lg:text-7xl text-[#fff]">
               I am <span className="text-blue-400">Kelechi.</span>
             </h1>
 
@@ -30,30 +30,32 @@ export default function Home() {
               where I can apply my creativity and keen ability to work on
               diverse projects.
             </p>
-            <button className="p-4 bg-slate-800 text-white my-2 text-xl md:text-xl w-[70%] md:w-[50%] rounded hover:bg-slate-700 transition duration-300">
+            <button className="p-4 bg-slate-800 text-white mt-5 text-base font-medium md:text-xl w-[70%] md:w-[70%] rounded hover:bg-slate-700 transition duration-300 font-mono">
               Download Resume
             </button>
           </section>
         </div>
-        <div>
-          <h2 className="text-lg text-neutral-500 md:text-end font-medium">
-            My Services
-          </h2>
-          <section className="cards-container">
-            {projects.map((project: ProjectType) => {
-              /* const Icon = project.icon; */
-              return (
-                <div key={project.id} className="card">
-                  {/* <Icon size={40} className="text-blue-200 " /> */}
+        <div className="grid items-center">
+          <div className="">
+            <h2 className="text-base md:text-xl text-blue-400 md:text-end font-medium">
+              My Services
+            </h2>
+            <section className="cards-container">
+              {projects.map((project: ProjectType) => {
+                /* const Icon = project.icon; */
+                return (
+                  <div key={project.id} className="card">
+                    {/* <Icon size={40} className="text-blue-200 " /> */}
 
-                  <h2 className="text-lg font-semibold text-white">
-                    {project.text1}
-                  </h2>
-                  <p className="text-base text-[#fff] ">{project.text2}</p>
-                </div>
-              );
-            })}
-          </section>
+                    <h2 className="text-base font-semibold text-white">
+                      {project.text1}
+                    </h2>
+                    <p className="text-base text-[#fff] ">{project.text2}</p>
+                  </div>
+                );
+              })}
+            </section>
+          </div>
         </div>
       </div>
     </Wrapper>

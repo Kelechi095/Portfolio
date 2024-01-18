@@ -20,8 +20,8 @@ const ListItem = ({text, src, icon: Icon, black, mongo, blue }: ListItemProps) =
         ${mongo && "text-lime-500"}
         ${blue && "text-cyan-700"}
         `}/>}
-        {src && <img src={src ? src : '/images/javascript.png'} alt="logo"  className="w-[20px]" />}
-        <span className="text-cyan-950 dark:text-white font-normal text-sm md:text-base">{text}</span>
+        {src && <img src={src ? src : '/images/javascript.png'} alt="logo"  className="w-[16px]" />}
+        <span className="text-white font-normal text-[13px] md:text-base">{text}</span>
     </li>
   )
 }
