@@ -24,7 +24,7 @@ export default function Home() {
               mind, I build simple, flexible, mobile responsive & custom
               websites for individuals & small/medium sized company
             </p>
-            <button className="p-4 bg-slate-800 text-white mt-2 text-xl w-[50%] rounded">Download Resume</button>
+            <button className="p-4 bg-slate-800 text-white my-2 text-base md:text-xl w-[70%] md:w-[50%] rounded">Download Resume</button>
           </section>
         </div>
         <div>
