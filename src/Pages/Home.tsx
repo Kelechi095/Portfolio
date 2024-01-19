@@ -17,7 +17,7 @@ export default function Home() {
               I am <span className="text-blue-400">Kelechi.</span>
             </h1>
 
-            <p className="max-w-[80%] md:max-w-[80%] text-[#fff] text-sm md:text-[17px] mt-2 md:leading-5">
+            <p className="max-w-[100%] md:max-w-[80%] text-[#fff] text-sm md:text-[17px] mt-2 md:leading-5">
               I am a{" "}
               <span className="text-blue-200 font-semibold">
                 Fullstack Web developer
