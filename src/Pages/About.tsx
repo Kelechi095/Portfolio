@@ -10,7 +10,7 @@ const About = () => {
       <div className="my-8">
 
       <Subtitle label="Basic Info:"/>
-      <p className="dark:text-white text-sm md:text-[17px] text-neutral-100 mb-6">
+      <p className="text-white text-sm md:text-[16px] mb-6">
         I am a fullstack web developer fron Nigeria.  I am goal-driven, ambitious, and seasoned developer with experience in shipping features for large-scale and real-time applications, as well as
         building consumer-facing products. I am actively seeking a frontend or backend role
         in a growing company where I can apply my creative mindset and keen
@@ -18,12 +18,14 @@ const About = () => {
       </p>
       
       <Subtitle label="Skills:"/>
-      <p className=" text-white text-sm md:text-[17px] mb-6">
-      On the frontend I have experience working with <span className="text-blue-400 font-semibold">HTML5, CSS3, Javascript, typescript, React and NextJs.</span>  On the backend I have experience working with <span className="text-blue-400 font-semibold">NodeJs, Express, PostgreSQL, MongoDB and Prisma.</span>  I also have experience working with tools and libraries such as <span className="text-blue-400 font-semibold">React Query, Redux tool kit, TailwindCss, Axios, Git, Jest and NPM</span> 
+      <p className=" text-white text-sm md:text-[16px] mb-1">
+      Frontend: <span className="">HTML5, CSS3, JavaScript, TypeScript, React and NextJs.</span></p>  
+      <p className="text-white text-sm md:text-[16px] mb-1">Backend: <span className="">NodeJs, Express, PostgreSQL, MongoDB and Prisma.</span> </p> 
+      <p className="text-white text-sm md:text-[16px] mb-6">Tools & Libraries: <span className="">React Query, Redux tool kit, TailwindCss, Axios, Git, Jest and NPM</span> 
       </p>
       <Subtitle label="Work Experience:"/>
-      <p className=" text-white text-sm md:text-[17px] mb-6">
-        I have <span className="text-blue-400 font-semibold">worked for two years as a freelance frontend developer on upwork</span> where I was responsible for architecting and building the frontend of new features, integrating data from various
+      <p className=" text-white text-sm md:text-[16px] mb-6">
+        I have worked for two years as a freelance frontend developer on upwork where I was responsible for architecting and building the frontend of new features, integrating data from various
         backend services and databases into responsive web apps, translating
         design solutions into high-quality, scalable code, optimizing
         applications for maximum performance across different web-capable
@@ -42,9 +44,9 @@ const About = () => {
        */}
       
       <Subtitle label="Hobbies:"/>
-      <p className=" text-white text-sm md:text-[17px] mb-6">
+      <p className=" text-white text-sm md:text-[16px] mb-6">
         Beyond my professional life, I have a range of interests which include
-        reading, writing stories, playing the piano and listening to music. I am also an ardent follower of sports, particularly tennis, football and track and field athletics. I also have a keen interest in history.
+        reading, writing stories, playing the piano and listening to music. I am also an ardent follower of sports;  particularly tennis, football and track & field athletics. I also have a keen interest in history.
       </p>
       </div>
     </Wrapper>
