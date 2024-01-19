@@ -18,9 +18,9 @@ const About = () => {
       </p>
       
       <Subtitle label="Skills:"/>
-      <p className=" text-white text-sm md:text-[16px] mb-1">
+      <p className=" text-white text-sm md:text-[16px]">
       Frontend: <span className="">HTML5, CSS3, JavaScript, TypeScript, React and NextJs.</span></p>  
-      <p className="text-white text-sm md:text-[16px] mb-1">Backend: <span className="">NodeJs, Express, PostgreSQL, MongoDB and Prisma.</span> </p> 
+      <p className="text-white text-sm md:text-[16px]">Backend: <span className="text-sm md:text-[16px]">NodeJs, Express, PostgreSQL, MongoDB and Prisma.</span> </p> 
       <p className="text-white text-sm md:text-[16px] mb-6">Tools & Libraries: <span className="">React Query, Redux tool kit, TailwindCss, Axios, Git, Jest and NPM</span> 
       </p>
       <Subtitle label="Work Experience:"/>

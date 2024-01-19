@@ -23,7 +23,7 @@ export default function Home() {
             <p className="max-w-[100%] md:max-w-[60%] text-[#fff] text-sm md:text-[17px] mt-2">
               
               <span className="text-blue-200 md:hidden inline-block font-semibold">
-                Fullstack Web Developer. 
+                I am a Fullstack Web Developer. 
               </span> I am a results-oriented, ambitious, and experienced developer with a track record of delivering features for large-scale and real-time applications, in addition to constructing consumer-facing products. I am actively pursuing a frontend or backend position within a progressive company, where I can leverage my creativity and adeptness in handling diverse projects.
             </p>
             <p className="font-semibold text-white mt-2 text-sm md:text-[17px]">Email: <span className="text-blue-200 font-normal">awomskelechi@gmail.com</span></p>
