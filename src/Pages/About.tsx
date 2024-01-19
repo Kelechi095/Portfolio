@@ -11,12 +11,12 @@ const About = () => {
 
       <Subtitle label="Basic Info:"/>
       <p className="text-white text-sm md:text-[16px] mb-6">
-        My name is Awoms Kelechi. I am a fullstack web developer from Nigeria. I am currently seeking a frontend or backend role in a growing company where I can apply my skills.
+        My name is Awoms Kelechi. I am smart and hardworking web developer from Nigeria with experience in shipping features for large-scale and real-time applications. I am currently seeking a frontend or backend role in a growing company where I can apply my skills.
       </p>
       
       <Subtitle label="Skills:"/>
       <p className=" text-blue-300 text-sm md:text-[16px]">
-      Frontend: <span className="text-white">HTML5, CSS3, JavaScript, TypeScript, React, NextJs.</span></p>  
+      Frontend: <span className="text-white ">HTML5, CSS3, JavaScript, TypeScript, React, NextJs.</span></p>  
       <p className="text-blue-300 text-sm md:text-[16px]">Backend: <span className="text-sm md:text-[16px] text-white">NodeJs, Express, PostgreSQL, MongoDB, Prisma.</span> </p> 
       <p className="text-blue-300 text-sm md:text-[16px] mb-6">Tools & Libraries: <span className="text-white">React Query, Redux tool kit, TailwindCss, Axios, Git, Jest, NPM</span> 
       </p>
