@@ -1,7 +1,6 @@
 import { projects } from "../../data.ts";
 import { ProjectType } from "../../data.ts";
 import Navbar from "../components/Navbar.tsx";
-import ListItem from "../components/ListItem.tsx";
 
 import Wrapper from "../components/Wrapper";
 
