@@ -30,16 +30,7 @@ const Navbar = () => {
           </li>
         </NavLink>
         
-        <NavLink
-          to="/skills"
-          className={({ isActive }) =>
-            isActive ? activeStyles : inactiveStyles
-          }
-        >
-          <li className="cursor-pointer items-center font-semibold">
-            Skills
-          </li>
-        </NavLink>
+        
         <NavLink
           to="/projects"
           className={({ isActive }) =>
@@ -48,6 +39,16 @@ const Navbar = () => {
         >
           <li className="cursor-pointer items-center font-semibold">
             Projects
+          </li>
+        </NavLink>
+        <NavLink
+          to="/contact"
+          className={({ isActive }) =>
+            isActive ? activeStyles : inactiveStyles
+          }
+        >
+          <li className="cursor-pointer items-center font-semibold">
+            Contact me
           </li>
         </NavLink>
         

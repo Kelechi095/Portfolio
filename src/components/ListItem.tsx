@@ -14,14 +14,14 @@ interface ListItemProps {
 const ListItem = ({text, src, icon: Icon, black, mongo, blue }: ListItemProps) => {
     
   return (
-    <li className="flex items-center gap-2 text-base mt-1">
+    <li className="flex items-center text-base gap-1">
       {Icon && <Icon size={20} className={`
         ${black && " text-black dark:text-white"}
         ${mongo && "text-lime-500"}
         ${blue && "text-cyan-700"}
         `}/>}
         {src && <img src={src ? src : '/images/javascript.png'} alt="logo"  className="w-[16px]" />}
-        <span className="text-white font-normal text-[13px] md:text-base">{text}</span>
+        <span className="text-white font-normal text-sm">{text}</span>
     </li>
   )
 }
