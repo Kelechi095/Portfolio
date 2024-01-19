@@ -24,7 +24,7 @@ export default function Home() {
               
               <span className="text-blue-200 md:hidden inline-block font-semibold">
                 I am a Fullstack Web Developer. 
-              </span> With usability, accessibility & functionality in mind, I build simple, flexible, mobile responsive & custom websites for individuals & small/medium sized company. I also create and integrate APIs into web apps that help keep data in sync, automate tasks, enhance productivity & drive more revenue. Additionally, I provide continous support for existing projects which may include fixes, updates and development of additional functionality or features. 
+              </span> With accessibility & functionality in mind, I build simple, mobile responsive & custom websites for individuals & small/medium sized company. I also create and integrate APIs into web apps that help keep data in sync, automate tasks, enhance productivity & drive more revenue. Additionally, I provide continous support for existing projects which may include fixes, updates and development of additional functionality or features. 
             </p>
             <p className="font-semibold text-white mt-2 text-sm md:text-[17px]">Email: <span className="text-blue-200 font-normal">awomskelechi@gmail.com</span></p>
             <p className="font-semibold text-white text-sm md:text-[17px] mt-1">Phone: <span className="text-blue-200 font-normal">+2348137031311</span></p>
@@ -34,7 +34,7 @@ export default function Home() {
               <p className="max-w-[80%] text-[#fff] text-sm md:text-[17px] mt-2"> <span className="text-blue-300 font-semibold"></span> </p>
  */}
             
-            <button className="p-4 bg-slate-800 text-white mt-5 text-base font-medium md:text-xl w-[70%] md:w-[40%] rounded hover:bg-slate-700 transition duration-300 font-mono">
+            <button className="p-4 bg-slate-800 text-white mt-5 text-base font-medium md:text-xl w-[70%] md:w-[40%] rounded hover:bg-slate-700 transition duration-300">
               Download Resume
             </button>
           </section>
