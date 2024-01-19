@@ -7,7 +7,7 @@ const About = () => {
   return (
     <Wrapper>
       <Navbar />
-      <div className="my-12">
+      <div className="my-8">
 
       <Subtitle label="Basic Info:"/>
       <p className="dark:text-white text-sm md:text-[17px] text-neutral-100 mb-6">
@@ -17,9 +17,13 @@ const About = () => {
         ability to work on diverse projects.
       </p>
       
+      <Subtitle label="Skills:"/>
+      <p className=" text-white text-sm md:text-[17px] mb-6">
+      On the frontend I have experience working with <span className="text-blue-400 font-semibold">HTML5, CSS3, Javascript, typescript, React and NextJs.</span>  On the backend I have experience working with <span className="text-blue-400 font-semibold">NodeJs, Express, PostgreSQL, MongoDB and Prisma.</span>  I also have experience working with tools and libraries such as <span className="text-blue-400 font-semibold">React Query, Redux tool kit, TailwindCss, Axios, Git, Jest and NPM</span> 
+      </p>
       <Subtitle label="Work Experience:"/>
       <p className=" text-white text-sm md:text-[17px] mb-6">
-        I have worked for two years as a freelance frontend developer on upwork where I was responsible for architecting and building the frontend of new features, integrating data from various
+        I have <span className="text-blue-400 font-semibold">worked for two years as a freelance frontend developer on upwork</span> where I was responsible for architecting and building the frontend of new features, integrating data from various
         backend services and databases into responsive web apps, translating
         design solutions into high-quality, scalable code, optimizing
         applications for maximum performance across different web-capable

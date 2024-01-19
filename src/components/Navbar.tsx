@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-0 left-0 z-10 bg-gray-900 h-20 w-full flex items-center">
-      <ul className="flex justify-start text-sm md:text-base gap-8 text-slate-800 items-center">
+      <ul className="flex justify-start text-sm md:text-base gap-6 text-slate-800 items-center">
         <NavLink
           to="/"
           className={({ isActive }) =>
@@ -48,7 +48,7 @@ const Navbar = () => {
           }
         >
           <li className="cursor-pointer items-center font-semibold">
-            Contact me
+            Contact
           </li>
         </NavLink>
         
