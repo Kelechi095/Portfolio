@@ -20,13 +20,13 @@ export const projects: ProjectType[] = [
     id: 2,
     icon: BsFileEarmarkPerson,
     text1: "Api Integration",
-    text2: "I can create and integrate APIs into web apps that help keep data in sync, automate tasks, enhance productivity & drive more revenue.",
+    text2: "I also create and integrate APIs into web apps that help keep data in sync, automate tasks, enhance productivity & drive more revenue.",
   },
   {
     id: 3,
     icon: BsFileEarmarkPerson,
     text1: "Continuous Support",
-    text2: "I provide continous support for existing projects which may include fixes, updates and development of additional functionality or features that will make the product more marketable",
+    text2: " that will make the product more marketable",
   },
   
 ];

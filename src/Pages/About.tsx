@@ -11,7 +11,7 @@ const About = () => {
 
       <Subtitle label="Basic Info:"/>
       <p className="text-white text-sm md:text-[16px] mb-6">
-        My name is Awoms Kelechi. I am a fullstack web developer fron Nigeria.  I am hardworking web developer with experience in shipping features for large-scale and real-time applications. I am actively seeking a frontend or backend role in a growing company where I can apply my skills
+        My name is Awoms Kelechi. I am a fullstack web developer from Nigeria. I am currently seeking a frontend or backend role in a growing company where I can apply my skills.
       </p>
       
       <Subtitle label="Skills:"/>
