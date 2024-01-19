@@ -24,7 +24,7 @@ export default function Home() {
               
               <span className="text-blue-200 md:hidden inline-block font-semibold">
                 I am a Fullstack Web Developer. 
-              </span> I am a results-oriented, ambitious, and experienced developer with a track record of delivering features for large-scale and real-time applications, in addition to constructing consumer-facing products. I am actively pursuing a frontend or backend position within a progressive company, where I can leverage my creativity and adeptness in handling diverse projects.
+              </span> With usability, accessibility & functionality in mind, I build simple, flexible, mobile responsive & custom websites for individuals & small/medium sized company. I also create and integrate APIs into web apps that help keep data in sync, automate tasks, enhance productivity & drive more revenue. Additionally, I provide continous support for existing projects which may include fixes, updates and development of additional functionality or features. 
             </p>
             <p className="font-semibold text-white mt-2 text-sm md:text-[17px]">Email: <span className="text-blue-200 font-normal">awomskelechi@gmail.com</span></p>
             <p className="font-semibold text-white text-sm md:text-[17px] mt-1">Phone: <span className="text-blue-200 font-normal">+2348137031311</span></p>

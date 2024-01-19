@@ -8,16 +8,14 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-0 left-0 z-10 bg-gray-900 h-20 w-full flex items-center">
-      <ul className="flex justify-start text-sm md:text-base gap-6 text-slate-800 items-center">
+      <ul className="flex justify-start text-sm md:text-base gap-8 text-slate-800 items-center">
         <NavLink
           to="/"
           className={({ isActive }) =>
             isActive ? activeStyles : inactiveStyles
           }
         >
-          <li className="cursor-pointer items-center font-semibold">
-            Home
-          </li>
+          <li className="cursor-pointer items-center font-semibold">Home</li>
         </NavLink>
         <NavLink
           to="/about"
@@ -25,12 +23,9 @@ const Navbar = () => {
             isActive ? activeStyles : inactiveStyles
           }
         >
-          <li className="cursor-pointer items-center font-semibold">
-            About
-          </li>
+          <li className="cursor-pointer items-center font-semibold">About</li>
         </NavLink>
-        
-        
+
         <NavLink
           to="/projects"
           className={({ isActive }) =>
@@ -41,17 +36,6 @@ const Navbar = () => {
             Projects
           </li>
         </NavLink>
-        <NavLink
-          to="/contact"
-          className={({ isActive }) =>
-            isActive ? activeStyles : inactiveStyles
-          }
-        >
-          <li className="cursor-pointer items-center font-semibold">
-            Contact
-          </li>
-        </NavLink>
-        
       </ul>
     </nav>
   );

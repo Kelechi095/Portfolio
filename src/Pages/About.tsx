@@ -11,17 +11,17 @@ const About = () => {
 
       <Subtitle label="Basic Info:"/>
       <p className="text-white text-sm md:text-[16px] mb-6">
-        I am a fullstack web developer fron Nigeria.  I am goal-driven, ambitious, and seasoned developer with experience in shipping features for large-scale and real-time applications, as well as
+        My name is Awoms Kelechi. I am a fullstack web developer fron Nigeria.  I am goal-driven and hardworking developer with experience in shipping features for large-scale and real-time applications, as well as
         building consumer-facing products. I am actively seeking a frontend or backend role
         in a growing company where I can apply my creative mindset and keen
         ability to work on diverse projects.
       </p>
       
       <Subtitle label="Skills:"/>
-      <p className=" text-white text-sm md:text-[16px]">
-      Frontend: <span className="">HTML5, CSS3, JavaScript, TypeScript, React and NextJs.</span></p>  
-      <p className="text-white text-sm md:text-[16px]">Backend: <span className="text-sm md:text-[16px]">NodeJs, Express, PostgreSQL, MongoDB and Prisma.</span> </p> 
-      <p className="text-white text-sm md:text-[16px] mb-6">Tools & Libraries: <span className="">React Query, Redux tool kit, TailwindCss, Axios, Git, Jest and NPM</span> 
+      <p className=" text-blue-300 text-sm md:text-[16px]">
+      Frontend: <span className="text-white">HTML5, CSS3, JavaScript, TypeScript, React, NextJs.</span></p>  
+      <p className="text-blue-300 text-sm md:text-[16px]">Backend: <span className="text-sm md:text-[16px] text-white">NodeJs, Express, PostgreSQL, MongoDB, Prisma.</span> </p> 
+      <p className="text-blue-300 text-sm md:text-[16px] mb-6">Tools & Libraries: <span className="text-white">React Query, Redux tool kit, TailwindCss, Axios, Git, Jest, NPM</span> 
       </p>
       <Subtitle label="Work Experience:"/>
       <p className=" text-white text-sm md:text-[16px] mb-6">
@@ -46,7 +46,7 @@ const About = () => {
       <Subtitle label="Hobbies:"/>
       <p className=" text-white text-sm md:text-[16px] mb-6">
         Beyond my professional life, I have a range of interests which include
-        reading, writing stories, playing the piano and listening to music. I am also an ardent follower of sports;  particularly tennis, football and track & field athletics. I also have a keen interest in history.
+        reading, writing stories, playing the piano and listening to music. I am also an ardent follower of sports;  particularly tennis, soccer and track & field athletics. I also have a keen interest in history and international politics. And I love dogs!
       </p>
       </div>
     </Wrapper>
