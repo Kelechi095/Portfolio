@@ -9,16 +9,16 @@ export default function Home() {
         <div className="h-screen">
           <section className="mt-12 md:mt-16 flex justify-center flex-col">
             <div>
-              <p className="text-6xl md:text-6xl font-bold lg:text-7xl text-[#fff]">
+              <p className="text-5xl md:text-6xl font-bold lg:text-7xl text-[#fff]">
                 Hi,
               </p>
-              <h1 className=" text-6xl font-bold md:text-6xl md:font-bold lg:text-7xl text-[#fff] whitespace-nowrap">
+              <h1 className=" text-5xl font-bold md:text-6xl md:font-bold lg:text-7xl text-[#fff] whitespace-nowrap">
                 I'm{" "}
                 <span className="text-blue-400 mt-2 inline-block">
                   Kelechi,
                 </span>
               </h1>
-              <h1 className=" text-6xl md:text-6xl font-bold lg:text-7xl text-[#fff] mt-2 whitespace-nowrap">
+              <h1 className=" text-5xl md:text-6xl font-bold lg:text-7xl text-[#fff] mt-2 whitespace-nowrap">
                 Web Developer
               </h1>
             </div>
