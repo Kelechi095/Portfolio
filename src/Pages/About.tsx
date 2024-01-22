@@ -9,9 +9,9 @@ const About = () => {
       <Navbar />
       <div className="my-8">
 
-      <Subtitle label="Basic Info:"/>
+      <Subtitle label="Bio:"/>
       <p className="text-white text-sm md:text-[16px] mb-6">
-        My name is Awoms Kelechi. I am smart and hardworking web developer from Nigeria with experience in shipping features for large-scale and real-time applications. I am currently seeking a frontend or backend role in a growing company where I can apply my skills.
+        My name is Awoms Kelechi. I am a smart and hardworking web developer from Nigeria with experience in shipping features for large-scale and real-time applications. I am currently seeking a frontend or backend role in a growing company where I can apply my skills.
       </p>
       
       <Subtitle label="Skills:"/>

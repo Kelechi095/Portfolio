@@ -10,7 +10,7 @@ label {
 
 @layer components {
   .main {
-    @apply px-8 md:px-20 min-h-screen bg-gray-900;
+    @apply px-4 md:px-20 min-h-screen;
   }
 
   .logo-title {
