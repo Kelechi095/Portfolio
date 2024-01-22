@@ -7,7 +7,7 @@ interface WrapperProps {
 const Wrapper = ({ children }: WrapperProps) => {
 
   return (
-    <main className="px-4 md:px-44 py-4 min-h-screen">
+    <main className="px-4 md:px-44 my-4">
       {children}
     </main>
   );

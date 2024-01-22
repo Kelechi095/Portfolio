@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <Wrapper>
       <Animation1 />
-        <div className="mt-4">
+        <div className="mt-24">
           <p className="text-5xl md:text-6xl font-bold lg:text-7xl text-[#fff] w-auto text-[12vw]">
             Hi,
           </p>

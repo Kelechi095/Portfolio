@@ -14,7 +14,7 @@ const MobileNav = () => {
 
   return (
     <nav className='py-2 px-4 sticky left-0 top-0 md:hidden bg-slate-800 w-full'>
-        <h2 className="text-white">Portfolio</h2>
+        <h2 className="text-white text-lg font-bold mb-2">Portfolio</h2>
         
       
       <ul className="flex py-2 justify-between text-base text-slate-800 w-full items-center bg-slate-800">
