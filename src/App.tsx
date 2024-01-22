@@ -5,11 +5,15 @@ import About from "./Pages/About";
 import Projects from "./Pages/Projects";
 import Contact from "./Pages/Contact";
 import NavProvider from "./components/providers/NavProvider";
+import Navbar from "./components/Navbar";
+import MobileNav from "./components/MobileNav";
 
 function App() {
   return (
     <NavProvider>
       <BrowserRouter>
+      <Navbar />
+      <MobileNav />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
