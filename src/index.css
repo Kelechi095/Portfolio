@@ -9,10 +9,7 @@ label {
 }
 
 @layer components {
-  .main {
-    @apply px-4 md:px-32 md:py-16 min-h-screen;
-  }
-
+  
   .logo-title {
     @apply font-mono tracking-wide text-xl font-bold text-white;
   }

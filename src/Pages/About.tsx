@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar";
-import Subtitle from "../components/Subtitle";
+import Title from "../components/Title";
 //import Title from "../components/Title";
 import Wrapper from "../components/Wrapper";
 
@@ -7,21 +7,16 @@ const About = () => {
   return (
     <Wrapper>
       <Navbar />
-      <div className="my-8">
+      <Title label="About Myself"/>
 
-      <Subtitle label="Bio:"/>
-      <p className="text-white text-sm md:text-[16px] mb-6">
-        My name is Awoms Kelechi. I am a smart and hardworking web developer from Nigeria with experience in shipping features for large-scale and real-time applications. I am currently seeking a frontend or backend role in a growing company where I can apply my skills.
+      {/* <Subtitle label="Bio:"/> */}
+      <p className="text-white text-sm md:text-lg mb-6">
+        My name is Awoms Kelechi. I am a hardworking web developer from Nigeria with experience in shipping features for large-scale and real-time applications. I am currently seeking a frontend or backend role in a growing company where I can apply my skills.
       </p>
       
-      <Subtitle label="Skills:"/>
-      <p className=" text-blue-300 text-sm md:text-[16px]">
-      Frontend: <span className="text-white ">HTML5, CSS3, JavaScript, TypeScript, React, NextJs.</span></p>  
-      <p className="text-blue-300 text-sm md:text-[16px]">Backend: <span className="text-sm md:text-[16px] text-white">NodeJs, Express, PostgreSQL, MongoDB, Prisma.</span> </p> 
-      <p className="text-blue-300 text-sm md:text-[16px] mb-6">Tools & Libraries: <span className="text-white">React Query, Redux tool kit, TailwindCss, Axios, Git, Jest, NPM</span> 
-      </p>
-      <Subtitle label="Work Experience:"/>
-      <p className=" text-white text-sm md:text-[16px] mb-6">
+      
+      {/* <Subtitle label="Work Experience:"/> */}
+      <p className=" text-white text-sm md:text-lg mb-6">
         I have worked for two years as a freelance frontend developer on upwork where I was responsible for architecting and building the frontend of new features, integrating data from various
         backend services and databases into responsive web apps, translating
         design solutions into high-quality, scalable code, optimizing
@@ -40,12 +35,12 @@ const About = () => {
       </p>
        */}
       
-      <Subtitle label="Hobbies:"/>
-      <p className=" text-white text-sm md:text-[16px] mb-6">
+      {/* <Subtitle label="Hobbies:"/> */}
+      <p className=" text-white text-sm md:text-lg mb-6">
         Beyond my professional life, I have a range of interests which include
         reading, writing stories, playing the piano and listening to music. I am also an ardent follower of sports;  particularly tennis, soccer and track & field athletics. I also have a keen interest in history and international politics. And I love dogs!
       </p>
-      </div>
+      
     </Wrapper>
   );
 };

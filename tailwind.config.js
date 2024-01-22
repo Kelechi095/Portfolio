@@ -24,7 +24,13 @@ export default {
         sans: ['Raleway', 'sans-serif', "Roboto"],
         opensans: ['Open Sans', 'sans-serif'],
       },
+      
     },
   },
+  variants: {
+    extend: {
+        display: ["group-hover"],
+    },
+},
   plugins: [],
 }

@@ -1,6 +1,5 @@
 
 import ListItem from "../components/ListItem";
-import Navbar from "../components/Navbar";
 import Subtitle from "../components/Subtitle";
 import Wrapper from "../components/Wrapper";
 import { GiSkills } from "react-icons/gi";
@@ -23,17 +22,17 @@ import Npm from '../public/images/npm.png'
 import Jest from '../public/images/jest.png'
 import Axios from '../public/images/axios.png'
 import ReactQuery from '../public/images/reactquery.png'
+import Title from "../components/Title";
 
 
 
 const Skills = () => {
   return (
     <Wrapper>
-      <Navbar />
-      {/* <Title label="SKILLS" /> */}
-      {/*  */}
+      <Title label="Skills" />
+      
 
-      <section className="grid lg:grid-cols-2 grid-cols-1 gap-4 my-8">
+      <section className="grid lg:grid-cols-2 grid-cols-1 gap-4 mb-8">
         <div className="py-2 px-6 bg-slate-800 shadow-sm rounded-md">
           <Subtitle label="Frontend" />
           <ul>
