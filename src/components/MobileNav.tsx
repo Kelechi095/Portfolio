@@ -14,6 +14,15 @@ const MobileNav = () => {
 
   const location = useLocation();
 
+  const getPage = () => {
+    if(location.pathname.slice(1) === '') return 'Home'
+    const newStr = location.pathname.slice(1)
+    return newStr[0].toUpperCase() + newStr.slice(1).toLowerCase()
+
+  }
+
+
+
   return (
     <nav className="py-2 px-6 sticky left-0 top-0 md:hidden bg-slate-800 w-full">
       <h2 className="text-white text-lg font-bold my-2">Portfolio</h2>
@@ -26,11 +35,11 @@ const MobileNav = () => {
           }
         >
           <li className="cursor-pointer items-center font-semibold relative flex flex-col justify-center">
-            {location.pathname === "/" && (
-              <p className="text-white absolute top-[44px] bg-slate-800 rounded-b p-2 text-sm">
-                Home
+        
+              <p className="text-white absolute top-[44px] bg-slate-800 rounded-b p-2 px-6 text-sm">
+                {getPage()}
               </p>
-            )}
+        
             <AiOutlineHome size={28} />
           </li>
         </NavLink>
@@ -41,11 +50,7 @@ const MobileNav = () => {
           }
         >
           <li className="cursor-pointer items-center font-semibold relative flex flex-col justify-center">
-            {location.pathname === "/about" && (
-              <p className="text-white absolute top-[44px] bg-slate-800 rounded-b p-2 whitespace-nowrap text-sm">
-                About me
-              </p>
-            )}
+            
             <BsPerson size={28} />
           </li>
         </NavLink>
@@ -57,11 +62,7 @@ const MobileNav = () => {
           }
         >
           <li className="cursor-pointer items-center font-semibold relative flex flex-col justify-center">
-            {location.pathname === "/skills" && (
-              <p className="text-white absolute top-[44px] bg-slate-800 rounded-b p-2 text-sm">
-                Skills
-              </p>
-            )}
+            
             <FaRegLightbulb size={28} />
           </li>
         </NavLink>
@@ -72,11 +73,7 @@ const MobileNav = () => {
           }
         >
           <li className="cursor-pointer items-center font-semibold relative flex flex-col justify-center">
-            {location.pathname === "/projects" && (
-              <p className="text-white absolute top-[44px] bg-slate-800 rounded-b p-2 text-sm">
-                Projects
-              </p>
-            )}
+            
             <IoBriefcaseOutline size={28} />
           </li>
         </NavLink>
@@ -87,11 +84,7 @@ const MobileNav = () => {
           }
         >
           <li className="cursor-pointer items-center font-semibold relative flex flex-col justify-center">
-            {location.pathname === "/contact" && (
-              <p className="text-white absolute top-[44px] bg-slate-800 rounded-b p-2 whitespace-nowrap text-sm">
-                Contact
-              </p>
-            )}
+            
             <MdOutlineEmail size={28} />
           </li>
         </NavLink>
