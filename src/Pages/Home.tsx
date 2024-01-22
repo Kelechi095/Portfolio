@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <Wrapper>
       <Animation1 />
-        <div className="mt-24">
+        <div className="mt-16 md:mt-24">
           <p className="text-5xl md:text-6xl font-bold lg:text-7xl text-[#fff] w-auto text-[12vw]">
             Hi,
           </p>
@@ -19,7 +19,7 @@ export default function Home() {
         </div>
 
         <div>
-          <p className="max-w-[100%] md:max-w-[70%] text-white text-base md:text-[18px] mt-4 leading-[18px] md:leading-[24px]
+          <p className="max-w-[100%] md:max-w-[70%] text-white text-base md:text-[18px] mt-4 leading-[22px] md:leading-[24px]
 ">
             {/*  I build simple, accessible and mobile responsive websites for individuals and companies. I also create and integrate APIs into web apps that help keep data in sync, automate tasks and enhance productivity. Additionally, I provide continous support for existing projects which may include fixes, updates and development of additional functionality or features.
              */}{" "}

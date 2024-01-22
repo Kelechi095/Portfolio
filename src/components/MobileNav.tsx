@@ -42,7 +42,7 @@ const MobileNav = () => {
         >
           <li className="cursor-pointer items-center font-semibold relative flex flex-col justify-center">
             {location.pathname === "/about" && (
-              <p className="text-white absolute top-[44px] bg-slate-800 rounded p-2 whitespace-nowrap text-sm">
+              <p className="text-white absolute top-[44px] bg-slate-800 rounded-b p-2 whitespace-nowrap text-sm">
                 About me
               </p>
             )}
@@ -58,7 +58,7 @@ const MobileNav = () => {
         >
           <li className="cursor-pointer items-center font-semibold relative flex flex-col justify-center">
             {location.pathname === "/skills" && (
-              <p className="text-white absolute top-[44px] bg-slate-800 rounded p-2 text-sm">
+              <p className="text-white absolute top-[44px] bg-slate-800 rounded-b p-2 text-sm">
                 Skills
               </p>
             )}
@@ -73,7 +73,7 @@ const MobileNav = () => {
         >
           <li className="cursor-pointer items-center font-semibold relative flex flex-col justify-center">
             {location.pathname === "/projects" && (
-              <p className="text-white absolute top-[44px] bg-slate-800 rounded p-2 text-sm">
+              <p className="text-white absolute top-[44px] bg-slate-800 rounded-b p-2 text-sm">
                 Projects
               </p>
             )}
@@ -88,7 +88,7 @@ const MobileNav = () => {
         >
           <li className="cursor-pointer items-center font-semibold relative flex flex-col justify-center">
             {location.pathname === "/contact" && (
-              <p className="text-white absolute top-[44px] bg-slate-800 rounded p-2 whitespace-nowrap text-sm">
+              <p className="text-white absolute top-[44px] bg-slate-800 rounded-b p-2 whitespace-nowrap text-sm">
                 Contact
               </p>
             )}
