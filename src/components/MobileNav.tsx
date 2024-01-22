@@ -25,7 +25,7 @@ const MobileNav = () => {
 
   return (
     <nav className="py-2 px-6 sticky left-0 top-0 md:hidden bg-slate-800 w-full">
-      <h2 className="text-white text-lg font-bold my-2">Portfolio</h2>
+      <h2 className="text-white text-lg font-bold my-2">{getPage()}</h2>
 
       <ul className="flex py-2 justify-between text-base text-slate-800 w-full items-center bg-slate-800">
         <NavLink
@@ -36,9 +36,9 @@ const MobileNav = () => {
         >
           <li className="cursor-pointer items-center font-semibold relative flex flex-col justify-center">
         
-              <p className="text-white absolute top-[44px] bg-slate-800 rounded-b p-2 px-6 text-sm">
+              {/* <p className="text-white absolute top-[44px] bg-slate-800 rounded-b p-2 px-6 text-sm">
                 {getPage()}
-              </p>
+              </p> */}
         
             <AiOutlineHome size={28} />
           </li>
