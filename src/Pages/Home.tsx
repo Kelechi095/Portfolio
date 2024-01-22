@@ -7,24 +7,24 @@ export default function Home() {
     <Wrapper>
       <div className="grid grid-cols-1 gap-6 md:gap-1">
         <div className="h-screen">
-          <section className="mt-12 md:mt-16 flex justify-center flex-col">
+          <section className="mt-12 md:mt-16 flex h-[70%] justify-center flex-col">
             <div>
-              <p className="text-4xl md:text-6xl font-bold lg:text-7xl text-[#fff]">
+              <p className="text-5xl md:text-6xl font-bold lg:text-7xl text-[#fff] w-auto text-[12vw]">
                 Hi,
               </p>
-              <h1 className=" text-4xl font-bold md:text-6xl md:font-bold lg:text-7xl text-[#fff] whitespace-nowrap">
+              <h1 className=" text-5xl font-bold md:text-6xl md:font-bold lg:text-7xl text-[#fff] whitespace-nowrap w-auto text-[12vw]">
                 I'm{" "}
                 <span className="text-blue-400 mt-2 inline-block">
                   Kelechi,
                 </span>
               </h1>
-              <h1 className=" text-4xl md:text-6xl font-bold lg:text-7xl text-[#fff] mt-2 whitespace-nowrap">
+              <h1 className=" text-5xl md:text-6xl font-bold lg:text-7xl text-[#fff] mt-2 whitespace-nowrap w-auto text-[12vw] ">
                 Web Developer
               </h1>
             </div>
 
             <div>
-              <p className="max-w-[100%] md:max-w-[70%] text-white text-base md:text-lg mt-4">
+              <p className="max-w-[100%] md:max-w-[70%] text-white text-sm md:text-[18px] mt-4 leading-[16px] md:leading-[20px]">
                 {/*  I build simple, accessible and mobile responsive websites for individuals and companies. I also create and integrate APIs into web apps that help keep data in sync, automate tasks and enhance productivity. Additionally, I provide continous support for existing projects which may include fixes, updates and development of additional functionality or features.
                  */}{" "}
                 I'm a skilled web developer with experience in building
@@ -40,7 +40,7 @@ export default function Home() {
 
            
             <div>
-              <button className="p-4 bg-slate-800 text-white mt-5 text-lg md:text-xl w-[70%] md:w-[30%] rounded hover:bg-slate-700 transition duration-300">
+              <button className="p-4 bg-slate-800 text-white mt-5 text-lg md:text-xl w-[70%] md:w-[30%] rounded hover:bg-slate-700 transition duration-300 whitespace-nowrap">
                 Download Resume
               </button>
             </div>
