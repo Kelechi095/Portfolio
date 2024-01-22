@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 //import { FaDownload } from "react-icons/fa";
 import { AiOutlineHome } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
@@ -12,9 +12,11 @@ const MobileNav = () => {
   const inactiveStyles =
     "text-slate-800 hover:text-cyan-600 text-zinc-100 hover:text-neutral-400";
 
+    const location = useLocation()
+
   return (
     <nav className='py-2 px-4 sticky left-0 top-0 md:hidden bg-slate-800 w-full'>
-        <h2 className="text-white text-lg font-bold mb-2">Portfolio</h2>
+        <h2 className="text-white text-lg font-bold my-2">Portfolio</h2>
         
       
       <ul className="flex py-2 justify-between text-base text-slate-800 w-full items-center bg-slate-800">
@@ -27,8 +29,8 @@ const MobileNav = () => {
           
 
         >
-          <li className="cursor-pointer items-center font-semibold relative group">
-          <p className="text-white absolute left-14 bg-slate-800 rounded p-2 hidden group-hover:block opacity-80">Home</p>
+          <li className="cursor-pointer items-center font-semibold relative flex flex-col justify-center">
+          {location.pathname === '/' && <p className="text-white absolute top-[44px] bg-slate-800 rounded-b p-2 text-xs">Home</p>}
           <AiOutlineHome size={28}/>
           </li>
         </NavLink>
@@ -40,8 +42,8 @@ const MobileNav = () => {
           
 
         >
-          <li className="cursor-pointer items-center font-semibold relative group">
-          <p className="text-white absolute left-14 bg-slate-800 rounded p-2 hidden group-hover:block opacity-80 whitespace-nowrap ">About me</p>
+          <li className="cursor-pointer items-center font-semibold relative flex flex-col justify-center">
+          {location.pathname === '/about' && <p className="text-white absolute top-[44px] bg-slate-800 rounded p-2 whitespace-nowrap text-xs">About me</p>}
           <BsPerson size={28}/>
           </li>
         </NavLink>
@@ -54,8 +56,8 @@ const MobileNav = () => {
           
 
         >
-          <li className="cursor-pointer items-center font-semibold relative group">
-          <p className="text-white absolute left-14 bg-slate-800 rounded p-2 hidden group-hover:block opacity-80">Skills</p>
+          <li className="cursor-pointer items-center font-semibold relative flex flex-col justify-center">
+          { location.pathname === '/skills' && <p className="text-white absolute top-[44px] bg-slate-800 rounded p-2 text-xs">Skills</p>}
           <FaRegLightbulb size={28}/>
           </li>
         </NavLink>
@@ -67,9 +69,9 @@ const MobileNav = () => {
           
 
         >
-          <li className="cursor-pointer items-center font-semibold relative group">
-          <p className="text-white absolute left-14 bg-slate-800 rounded p-2 hidden group-hover:block opacity-80">Projects</p>
-            <IoBriefcaseOutline size={20}/>
+          <li className="cursor-pointer items-center font-semibold relative flex flex-col justify-center">
+          {location.pathname === '/projects' && <p className="text-white absolute top-[44px] bg-slate-800 rounded p-2 text-xs">Projects</p>}
+            <IoBriefcaseOutline size={28}/>
 
           </li>
         </NavLink>
@@ -81,8 +83,8 @@ const MobileNav = () => {
           
 
         >
-          <li className="cursor-pointer items-center font-semibold relative group">
-          <p className="text-white absolute left-14 bg-slate-800 rounded p-2 hidden group-hover:block transition-all duration-500 opacity-80 whitespace-nowrap">Contact me</p>
+          <li className="cursor-pointer items-center font-semibold relative flex flex-col justify-center">
+          {location.pathname === '/contact' && <p className="text-white absolute top-[44px] bg-slate-800 rounded p-1 whitespace-nowrap text-xs">Contact</p>}
             <MdOutlineEmail size={28}/>
           </li>
         </NavLink>
