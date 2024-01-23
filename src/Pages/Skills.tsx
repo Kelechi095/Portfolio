@@ -27,7 +27,7 @@ const Skills = () => {
     <Wrapper>
       <Title label="Skills" />
 
-      <section className="grid lg:grid-cols-2 grid-cols-1 gap-4 mb-8 w-full px-2">
+      <section className="grid grid-cols-1 gap-8 mb-8 w-full px-2">
         <div className="py-2">
           <Subtitle label="Frontend" />
           <ul className="grid grid-cols-3 gap-4">
