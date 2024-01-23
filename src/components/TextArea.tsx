@@ -1,0 +1,39 @@
+import { FieldErrors, FieldValues, UseFormRegister } from "react-hook-form";
+
+interface TextAreaProps {
+  id: string;
+  label: string;
+  placeholder: string
+  disabled?: boolean;
+  required?: boolean;
+  register: UseFormRegister<FieldValues>;
+  errors: FieldErrors;
+}
+
+const TextArea = ({
+  id,
+  placeholder,
+  disabled,
+  required,
+  register,
+  errors,
+}: TextAreaProps) => {
+  return (
+    <div className="w-full relative">
+      
+      <textarea
+        id={id}
+        disabled={disabled}
+        {...register(id, { required })}
+        placeholder={placeholder}
+        className={`peer w-full md:w-[50%] max-h-[150px] min-h-[150px] text-white p-4 outline-none bg-inherit border-2 disabled:opacity-70 disabled:cursor-not-allowed
+        ${errors[id] ? "border-red-500" : "border-slate-600"}
+        ${errors[id] ? "focus:border-red-500" : "focus:border-slate-600"}
+        `}
+      />
+    </div>
+  );
+};
+
+
+export default TextArea;
