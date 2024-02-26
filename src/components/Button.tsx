@@ -28,7 +28,7 @@ const Button = ({
     <button
     onClick={onClick}
       disabled={disabled}
-      className={`disabled:opacity-70 disabled:cursor-not-allowed rounded hover:bg-slate-700 transition w-full md:w-[50%] border-slate-800 flex items-center justify-center gap-2
+      className={`disabled:opacity-70 disabled:cursor-not-allowed rounded hover:bg-slate-700 transition w-full border-slate-800 flex items-center justify-center gap-2
       ${outline ? "bg-slate-800" : "bg-slate-800"}
       ${outline ? "text-rose-400" : "text-slate-200"}
       ${small ? 'text-sm font-light': 'text-base font-semibold'}
