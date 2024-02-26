@@ -55,10 +55,7 @@ export default function Home() {
         </p>
         <p className="mt-2 font-semibold text-lg md:text-xl text-blue-400">- {skills[skillIndex]}</p>
       </div>
-      {/* <p className="font-semibold text-white mt-2 text-sm md:text-[17px]">Email: <span className="text-blue-200 font-normal">awomskelechi@gmail.com</span></p>
-            <p className="font-semibold text-white text-sm md:text-[17px] mt-1">Phone: <span className="text-blue-200 font-normal">+2348137031311</span></p>
-           */}
-
+      
       <div>
         <button className="p-4 bg-slate-800 text-white mt-5 text-lg md:text-xl w-[70%] md:w-fit rounded hover:bg-slate-700 transition duration-300 whitespace-nowrap">
           Download Resume

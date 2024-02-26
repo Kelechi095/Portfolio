@@ -13,7 +13,6 @@ import Redux from "../public/images/redux.png";
 import Tailwind from "../public/images/tailwind.png";
 import Git from "../public/images/git.png";
 import Npm from "../public/images/npm.png";
-import Jest from "../public/images/jest.png";
 import Postgres from "../public/images/postgress.png";
 import Prisma from "../public/images/prisma4.png";
 import MongoDb from "../public/images/mongo3.jpg";
@@ -59,7 +58,7 @@ const Skills = () => {
             <ListItem text="Axios" src={Axios} big />
             <ListItem text="Git" src={Git} />
             <ListItem text="NPM" src={Npm} />
-            <ListItem text="Jest" src={Jest} />
+            <ListItem text="Zustand" src={Npm} />
           </ul>
         </div>
       </section>
