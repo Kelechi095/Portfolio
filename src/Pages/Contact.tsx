@@ -65,13 +65,13 @@ const RegisterForm = () => {
             onClick={handleSubmit(onSubmit)}
           />
         </section>
-        <section className="md:p-4 pt-2 md:pt-8 md:pl-24">
-          <p className="font-semibold text-white text-sm md:text-[17px] flex gap-2 items-center">
+        <section className="md:p-4 pt-6 md:pt-8 md:pl-24">
+          <p className="font-semibold text-white md:text-[17px] flex gap-2 items-center">
             <MdOutlineEmail className="text-lg" />
             <p>Email:</p>
             <p className="font-semibold text-blue-400">awomskelechi@gmail.com</p>
           </p>
-          <p className="font-semibold text-white mt-2 text-sm md:text-[17px] flex gap-2 items-center">
+          <p className="font-semibold text-white mt-2 md:text-[17px] flex gap-2 items-center">
             <FaPhoneAlt className="text-base" />
             <p>Phone:</p>
             <p className="font-semibold text-blue-400">08137031311</p>
