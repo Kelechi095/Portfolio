@@ -36,6 +36,7 @@ const MobileNav = () => {
           <li className="cursor-pointer items-center font-semibold relative flex flex-col justify-center">
         
             <AiOutlineHome size={28} />
+            <p className="text-xs">Home</p>
           </li>
         </NavLink>
         <NavLink
@@ -47,6 +48,7 @@ const MobileNav = () => {
           <li className="cursor-pointer items-center font-semibold relative flex flex-col justify-center">
             
             <BsPerson size={28} />
+            <p className="text-xs">About</p>
           </li>
         </NavLink>
 
@@ -59,6 +61,7 @@ const MobileNav = () => {
           <li className="cursor-pointer items-center font-semibold relative flex flex-col justify-center">
             
             <LiaToolsSolid size={28} />
+            <p className="text-xs">Skills</p>
           </li>
         </NavLink>
         <NavLink
@@ -70,6 +73,7 @@ const MobileNav = () => {
           <li className="cursor-pointer items-center font-semibold relative flex flex-col justify-center">
             
             <IoBriefcaseOutline size={28} />
+            <p className="text-xs">Projects</p>
           </li>
         </NavLink>
         <NavLink
@@ -81,6 +85,7 @@ const MobileNav = () => {
           <li className="cursor-pointer items-center font-semibold relative flex flex-col justify-center">
             
             <MdOutlineEmail size={28} />
+            <p className="text-xs">Contact</p>
           </li>
         </NavLink>
       </ul>
