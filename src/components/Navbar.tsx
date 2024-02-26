@@ -3,8 +3,9 @@ import { NavLink } from "react-router-dom";
 import { AiOutlineHome } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
 import { IoBriefcaseOutline } from "react-icons/io5";
-import { FaRegLightbulb } from "react-icons/fa";
+import { LiaToolsSolid } from "react-icons/lia";
 import { MdOutlineEmail } from "react-icons/md";
+
 
 
 const Navbar = () => {
@@ -54,7 +55,7 @@ const Navbar = () => {
         >
           <li className="cursor-pointer items-center font-semibold relative group">
           <p className="text-white absolute left-14 bg-slate-800 rounded p-2 hidden group-hover:block opacity-80">Skills</p>
-          <FaRegLightbulb size={36}/>
+          <LiaToolsSolid size={36}/>
           </li>
         </NavLink>
         <NavLink

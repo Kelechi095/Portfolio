@@ -8,10 +8,11 @@ interface ListItemProps {
     black?: boolean
     mongo?: boolean
     blue?: boolean
+    big?: boolean
   }
 
 
-const ListItem = ({text, src, icon: Icon, black, mongo, blue }: ListItemProps) => {
+const ListItem = ({text, src, icon: Icon, black, mongo, blue, big }: ListItemProps) => {
     
   return (
     <li className="flex  flex-col justify-around items-center h-20 md:h-28 rounded px-8 py-2 bg-slate-800">
@@ -20,7 +21,10 @@ const ListItem = ({text, src, icon: Icon, black, mongo, blue }: ListItemProps) =
         ${mongo && "text-lime-500"}
         ${blue && "text-cyan-700"}
         `}/>}
-        {src && <img src={src ? src : '/images/javascript.png'} alt="logo"  className="w-[20px] md:w-[30px]" />}
+        {src && <img src={src ? src : '/images/javascript.png'} alt="logo"  className={`
+        w-[20px] md:w-[30px]
+        ${big && " w-[30px] md:w-[44px]"}
+        `} />}
         <span className="text-white font-normal text-xs md:text-lg">{text}</span>
     </li>
   )

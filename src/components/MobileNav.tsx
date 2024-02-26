@@ -1,10 +1,9 @@
 import { NavLink, useLocation } from "react-router-dom";
-//import { FaDownload } from "react-icons/fa";
 import { AiOutlineHome } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
 import { IoBriefcaseOutline } from "react-icons/io5";
-import { FaRegLightbulb } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
+import { LiaToolsSolid } from "react-icons/lia";
 
 const MobileNav = () => {
   
@@ -36,10 +35,6 @@ const MobileNav = () => {
         >
           <li className="cursor-pointer items-center font-semibold relative flex flex-col justify-center">
         
-              {/* <p className="text-white absolute top-[44px] bg-slate-800 rounded-b p-2 px-6 text-sm">
-                {getPage()}
-              </p> */}
-        
             <AiOutlineHome size={28} />
           </li>
         </NavLink>
@@ -63,7 +58,7 @@ const MobileNav = () => {
         >
           <li className="cursor-pointer items-center font-semibold relative flex flex-col justify-center">
             
-            <FaRegLightbulb size={28} />
+            <LiaToolsSolid size={28} />
           </li>
         </NavLink>
         <NavLink

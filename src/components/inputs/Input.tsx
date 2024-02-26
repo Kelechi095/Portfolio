@@ -23,7 +23,7 @@ const Input = ({
   errors,
 }: InputProps) => {
   return (
-    <div className="w-full relative">
+    <div className="w-full">
       
       <input
         autoComplete="off"

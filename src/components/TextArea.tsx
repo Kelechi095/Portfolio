@@ -26,7 +26,7 @@ const TextArea = ({
         disabled={disabled}
         {...register(id, { required })}
         placeholder={placeholder}
-        className={`peer w-full md:w-[50%] max-h-[150px] min-h-[150px] text-white p-4 outline-none bg-inherit border md:border-2 disabled:opacity-70 disabled:cursor-not-allowed
+        className={`peer w-full md:w-[50%] max-h-[150px] min-h-[150px] mb-1 text-white p-4 outline-none bg-inherit border md:border-2 disabled:opacity-70 disabled:cursor-not-allowed
         ${errors[id] ? "border-rose-400" : "border-slate-600"}
         ${errors[id] ? "focus:border-rose-400" : "focus:border-slate-600"}
         `}
