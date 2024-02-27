@@ -1,4 +1,3 @@
-import Subtitle from "../components/Subtitle";
 import Title from "../components/Title";
 import Wrapper from "../components/Wrapper";
 import Booktekka from "../public/images/booktekka.png";
