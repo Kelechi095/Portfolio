@@ -74,7 +74,7 @@ const RegisterForm = () => {
           <p className="font-semibold text-white mt-2 md:text-[17px] flex gap-2 items-center">
             <FaPhoneAlt className="text-base" />
             <p>Phone:</p>
-            <p className="font-semibold text-blue-400">08137031311</p>
+            <p className="font-semibold text-blue-400">+2348137031311</p>
           </p>
         </section>
       </div>
