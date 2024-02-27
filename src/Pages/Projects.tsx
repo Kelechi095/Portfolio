@@ -49,7 +49,7 @@ const Projects = () => {
         <h4 className="text-blue-400 font-semibold text-lg">
           Languages, frameworks and libraries used:
         </h4>
-        <ul className="">
+        <ul className="list-disc ml-5">
           <li>
             The project was written in{" "}
             <span className="font-semibold">TypeScript</span>
@@ -83,7 +83,7 @@ const Projects = () => {
             and error messages
           </li>
           <li>
-            Client state management was handled using{" "}
+            Client-side state management was handled using{" "}
             <span className="font-semibold">Zustand</span>
           </li>
           <li>
