@@ -11,7 +11,7 @@ const About = () => {
       <Title label="About Myself"/>
 
       <Subtitle label="Background:"/>
-      <p className="text-white text-sm md:text-lg mb-6">
+      <p className="text-white text-sm md:text-base mb-6">
         My name is Awoms Kelechi. I am a web developer from Nigeria with experience in shipping features for large-scale and real-time applications. I am currently seeking a frontend or backend role in a growing company where I can apply my skills.
       </p>
       
