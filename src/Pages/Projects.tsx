@@ -10,10 +10,8 @@ const Projects = () => {
       <Title label="Projects" />
 
       <div>
-      <h4 className="text-blue-400 font-semibold text-lg mb-1">
-          Project Title: <span className="font-semibold text-white">BookTekka</span>
-        </h4>
-        <img src={Booktekka}  className="rounded"/>
+        <h4 className="font-semibold text-white text-lg mb-1">BookTekka</h4>
+        <img src={Booktekka} className="rounded" />
       </div>
       <div className="flex justify-between gap-4 items-center">
         <a
@@ -51,22 +49,68 @@ const Projects = () => {
         <h4 className="text-blue-400 font-semibold text-lg">
           Languages, frameworks and libraries used:
         </h4>
-        <p>The project was written in <span className="font-semibold text-blue-200">TypeScript</span></p>
-        <p>The project was built with <span className="font-semibold text-blue-200">NextJs</span> and deployed on <span className="font-semibold text-blue-200">Vercel</span></p>
-        <p><span className="font-semibold text-blue-200">TailwindCSS</span> was used for styling</p>
-        <p> <span className="font-semibold text-blue-200">MongoDB</span> served as the database</p>
-        <p> <span className="font-semibold text-blue-200">Prisma</span> served as the ORM</p>
-        <p>Authentication was handled using <span className="font-semibold text-blue-200">NextAuth</span></p>
-        <p>
-        <span className="font-semibold text-blue-200">React Hook Form</span> was used to handle form validation, including email
-          field validation and error messages
-        </p>
-        <p>Client state management was handled using <span className="font-semibold text-blue-200">Zustand</span></p>
-        <p><span className="font-semibold text-blue-200">Server side rendering</span>was incorporated</p>
-        <p>APIs were created using <span className="font-semibold text-blue-200">NextJs API routes</span></p>
-        <p><span className="font-semibold text-blue-200">Axios</span> was used for HTTP requests</p>
-        <p><span className="font-semibold text-blue-200">Cloudinary</span> was used for image uploads</p>
-        <p><span className="font-semibold text-blue-200">React hot toast</span> was used for toast messages</p>
+        <ul className="">
+          <li>
+            The project was written in{" "}
+            <span className="font-semibold">TypeScript</span>
+          </li>
+          <li>
+            The project was built with{" "}
+            <span className="font-semibold">NextJs</span> and deployed on{" "}
+            <span className="font-semibold ">Vercel</span>
+          </li>
+          <li>
+            <span className="font-semibold">TailwindCSS</span> was used for
+            styling
+          </li>
+          <li>
+            {" "}
+            <span className="font-semibold ">MongoDB</span> served as the
+            database
+          </li>
+          <li>
+            {" "}
+            <span className="font-semibold ">Prisma</span> served
+            as the ORM
+          </li>
+          <li>
+            Authentication was handled using{" "}
+            <span className="font-semibold ">NextAuth</span>
+          </li>
+          <li>
+            <span className="font-semibold">React Hook Form</span>{" "}
+            was used to handle form validation, including email field validation
+            and error messages
+          </li>
+          <li>
+            Client state management was handled using{" "}
+            <span className="font-semibold">Zustand</span>
+          </li>
+          <li>
+            <span className="font-semibold">
+              Server side rendering{" "}
+            </span>
+            was incorporated
+          </li>
+          <li>
+            APIs were created using{" "}
+            <span className="font-semibold">
+              NextJs API routes
+            </span>
+          </li>
+          <li>
+            <span className="font-semibold">Axios</span> was used
+            for HTTP requests
+          </li>
+          <li>
+            <span className="font-semibold ">Cloudinary</span> was
+            used for image uploads
+          </li>
+          <li>
+            <span className="font-semibold ">React hot toast</span>{" "}
+            was used for toast messages
+          </li>
+        </ul>
       </section>
       <section className="text-white mt-2 text-sm md:text-base">
         <h4 className="text-blue-400 font-semibold text-lg">
@@ -90,24 +134,24 @@ const Projects = () => {
           spinning down of the server and high cost of hosting, I decided to
           recreate the project using Nextjs and deploying on vercel. You can
           find the links to the github codes for the frontend and backend here:
-          </p>
-          <div className="flex flex-col">
-            <a
-              href="https://github.com/Kelechi095/BookTekka-Frontend"
-              className="underline text-blue-400"
-            >
-              Frontend
-            </a>{" "}
-            <a
-              href="https://github.com/Kelechi095/BookTekka-api"
-              className="underline text-blue-400"
-            >
-              Backend
-            </a>
-          </div>
-          <p>
-            I decided to rebuild the project with Nextjs over React for
-            various reasons:
+        </p>
+        <div className="flex flex-col">
+          <a
+            href="https://github.com/Kelechi095/BookTekka-Frontend"
+            className="underline text-blue-400"
+          >
+            Frontend
+          </a>{" "}
+          <a
+            href="https://github.com/Kelechi095/BookTekka-api"
+            className="underline text-blue-400"
+          >
+            Backend
+          </a>
+        </div>
+        <p>
+          I decided to rebuild the project with Nextjs over React for various
+          reasons:
           <p>
             - I prefer the folder based routing of Nextjs to react router dom.
           </p>
