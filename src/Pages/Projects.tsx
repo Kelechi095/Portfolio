@@ -36,7 +36,7 @@ const Projects = () => {
       </div>
 
       <section className="text-white mt-6 text-sm md:text-base">
-        <h4 className="text-blue-400 font-semibold md:text-lg">
+        <h4 className="text-blue-400 font-semibold text-lg">
           Project Description:
         </h4>
         <p>
@@ -53,7 +53,7 @@ const Projects = () => {
       </section>
 
       <section className="text-white mt-2 text-sm md:text-base">
-        <h4 className="text-blue-400 font-semibold md:text-lg">
+        <h4 className="text-blue-400 font-semibold text-lg">
           Languages and libraries used:
         </h4>
         <ul className="list-disc ml-5">
@@ -140,7 +140,7 @@ const Projects = () => {
       </section>
 
       <section className="text-white mt-6 text-sm md:text-base">
-        <h4 className="text-blue-400 font-semibold md:text-lg">
+        <h4 className="text-blue-400 font-semibold text-lg">
           The first version of this project:
         </h4>
         <p>
@@ -175,11 +175,11 @@ const Projects = () => {
           I decided to rebuild the project using Nextjs instead of React for various
           reasons:
           <p>
-            - I prefer the folder based routing of Nextjs to react router dom.
+            - I prefer the folder based routing of Nextjs to React Router Dom.
           </p>
           <p>
             - Deploying Fullstack Nextjs projects on Vercel was a breeze
-            compared to deploying elsewhere
+            compared to deploying elsewhere.
           </p>
           <p>
             - Since I was using Typescript on the frontend and backend, Nextjs
