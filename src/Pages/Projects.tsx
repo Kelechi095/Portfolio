@@ -130,24 +130,24 @@ const Projects = () => {
           in production. The first version was written in Javascript and built
           using Vanilla React. Client side state was handled using Redux tool
           kit while server side state was handled using React Query. It has a
-          seperate nodejs backend deployed on a seperate server. Due to constant
+          seperate Node.js and Express.js backend deployed on a seperate server. Due to constant
           spinning down of the server and high cost of hosting, I decided to
           recreate the project using Nextjs and deploying on vercel. You can
-          find the links to the github codes for the frontend and backend here:
-        </p>
-        <div className="flex flex-col">
-          <a
+          find the github codes for the <a
             href="https://github.com/Kelechi095/BookTekka-Frontend"
             className="underline text-blue-400"
           >
             Frontend
-          </a>{" "}
+          </a> and
           <a
             href="https://github.com/Kelechi095/BookTekka-api"
             className="underline text-blue-400"
-          >
+          >{" "}
             Backend
-          </a>
+          </a> in these links
+        </p>
+        <div className="flex flex-col">
+          
         </div>
         <p>
           I decided to rebuild the project with Nextjs over React for various
@@ -160,7 +160,7 @@ const Projects = () => {
             compared to deploying elsewhere
           </p>
           <p>
-            Thirdly since I was using Typescript on the frontend and backend,
+            - Since I was using Typescript on the frontend and backend,
             Nextjs api routes and server side rendering just seemed more suited
             to the project I was building.
           </p>
