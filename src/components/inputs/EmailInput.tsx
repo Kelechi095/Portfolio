@@ -10,22 +10,22 @@ interface InputProps {
   disabled?: boolean;
   required?: boolean;
   register: UseFormRegister<FieldValues>;
-  errors: FieldErrors;
+  errors: FieldErrors
 }
 
-const Input = ({
+const EmailInput = ({
   id,
   label,
   type,
   disabled,
   register,
-  errors
+  errors,
 }: InputProps) => {
   return (
     <div className="w-full relative">
       <label
         htmlFor={id}
-        className={`cursor-text text-md
+        className={`cursor-text text-md mt-2
           ${errors[id] ? "text-rose-400" : "text-slate-400"}
           
           `}
@@ -38,15 +38,15 @@ const Input = ({
         id={id}
         disabled={disabled}
         {...register(id, {
-          required: `${
-          type === "password"
-              ? "Password"
-              : "Input"
-          } is required`,
+          required: "Email is required",
+          pattern: {
+            value: /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/,
+            message: "Invalid email address",
+          },
         })}
         placeholder=""
         type={type}
-        className={`w-full px-2 py-4 outline-none border-2 bg-transparent text-white disabled:opacity-70 disabled:cursor-not-allowed
+        className={`w-full px-2 py-4 outline-none border-2 text-white bg-transparent disabled:opacity-70 disabled:cursor-not-allowed
         ${errors[id] ? "border-rose-400" : "border-slate-600"}
         ${errors[id] ? "focus:border-rose-400" : "focus:border-slate-600"}
         `}
@@ -60,4 +60,4 @@ const Input = ({
   );
 };
 
-export default Input;
+export default EmailInput;

@@ -24,8 +24,6 @@ export default function Home() {
     return () => clearTimeout(id);
   }, [skillIndex]);
 
-  console.log(skillIndex)
-
   return (
     <Wrapper>
       <Animation1 />
@@ -36,7 +34,7 @@ export default function Home() {
         <h1 className=" text-5xl font-bold md:text-6xl md:font-bold lg:text-7xl text-[#fff] whitespace-nowrap w-auto text-[12vw]">
           I'm <span className="text-blue-400 mt-2 inline-block">Kelechi,</span>
         </h1>
-        <h1 className=" text-5xl md:text-6xl font-bold lg:text-7xl text-[#fff] mt-2 whitespace-nowrap w-auto text-[12vw] ">
+        <h1 className=" text-5xl md:text-6xl font-bold inline-block lg:text-7xl text-[#fff] mt-2 whitespace-nowrap w-auto text-[11vw] ">
           Web Developer
         </h1>
       </div>
@@ -46,16 +44,18 @@ export default function Home() {
           className="max-w-[100%] md:max-w-[70%] text-white text-base md:text-[18px] mt-4 leading-[22px] md:leading-[24px]
 "
         >
-          {/*  I build simple, accessible and mobile responsive websites for individuals and companies. I also create and integrate APIs into web apps that help keep data in sync, automate tasks and enhance productivity. Additionally, I provide continous support for existing projects which may include fixes, updates and development of additional functionality or features.
-           */}{" "}
           I'm a skilled web developer with experience in building responsive and
-          user-friendly websites. I have the technical expertise to bring
-          dynamic and visually appealing interfaces to life. I have built
-          stable, elegant, secure and reliable websites with:
+          user-friendly websites for individuals and companies. I also create
+          and integrate APIs into web apps. I provide continous support for
+          existing projects which may include fixes, updates and development of
+          additional functionality or features. I have built stable, elegant,
+          secure and websites with:
         </p>
-        <p className="mt-2 font-semibold text-lg md:text-xl text-blue-400">- {skills[skillIndex]}</p>
+        <p className="mt-2 font-semibold text-lg md:text-xl text-blue-400">
+          - {skills[skillIndex]}
+        </p>
       </div>
-      
+
       <div>
         <button className="p-4 bg-slate-800 text-white mt-5 text-lg md:text-xl w-[70%] md:w-fit rounded hover:bg-slate-700 transition duration-300 whitespace-nowrap">
           Download Resume

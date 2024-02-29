@@ -8,6 +8,7 @@ import NavProvider from "./components/providers/NavProvider";
 import Navbar from "./components/Navbar";
 import MobileNav from "./components/MobileNav";
 import React, { useLayoutEffect } from "react";
+import ToasterProvider from "./components/providers/ToastProvider";
 
 interface ScrollToTopProps {
   children: React.ReactNode
@@ -23,6 +24,7 @@ function App() {
   };
   return (
     <NavProvider>
+      <ToasterProvider />
       <BrowserRouter>
         <ScrollToTop>
           <Navbar />

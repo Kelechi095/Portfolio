@@ -18,11 +18,11 @@ const About = () => {
       
       <Subtitle label="Work Experience:"/>
       <p className=" text-white text-sm md:text-lg mb-6">
-        I have worked for two years as a freelance frontend developer on upwork where I was responsible for architecting and building the frontend of new features, integrating data from various
+        I have worked for a year as a freelance frontend developer on upwork where I was responsible for architecting and building the frontend of new features, integrating data from various
         backend services and databases into responsive web apps, translating
         design solutions into high-quality, scalable code, optimizing
         applications for maximum performance across different web-capable
-        devices and browsers. During this period, I have developed strong
+        devices and browsers. During this period, I developed strong
         problem-solving skills, attention to detail, and the ability to work
         independently. I am confident in my ability to tackle complex challenges
         and complete projects to a high standard and within deadlines. My
@@ -30,11 +30,11 @@ const About = () => {
         me an ideal candidate for any team in need of a dynamic and
         result-oriented individual.
       </p>
-      {/* <p className=" dark:text-white text-sm md:text-[17px] text-cyan-900 mb-6">
-        I have also collaborated with other web developers on open source projects, where I added functionality to web application, wrote tests, and participated in code reviews to ensure
+      <p className=" dark:text-white text-sm md:text-[17px] text-cyan-900 mb-6">
+        Besides freelancing, I have also collaborated with other web developers on open source projects, where I added functionality to web application, wrote tests, and participated in code reviews to ensure
         adherence to best practices and coding standards.
       </p>
-       */}
+       
       
       <Subtitle label="Hobbies:"/>
       <p className=" text-white text-sm md:text-lg mb-6">

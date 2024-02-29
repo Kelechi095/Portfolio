@@ -3,10 +3,12 @@ import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
 import { useState } from "react";
 import Button from "../components/Button";
 import Wrapper from "../components/Wrapper";
-import TextArea from "../components/TextArea";
 import Subtitle from "../components/Subtitle";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
+import toast from "react-hot-toast";
+import EmailInput from "../components/inputs/EmailInput";
+import TextAreaInput from "../components/inputs/TextAreaInput";
 
 const RegisterForm = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -14,6 +16,7 @@ const RegisterForm = () => {
     register,
     handleSubmit,
     formState: { errors },
+    reset
   } = useForm<FieldValues>({
     defaultValues: {
       name: "",
@@ -22,15 +25,19 @@ const RegisterForm = () => {
     },
   });
 
-  const onSubmit: SubmitHandler<FieldValues> = (data) => {
-    setIsLoading(true);
-    console.log(data);
+  const onSubmit: SubmitHandler<FieldValues> = () => {
+    setIsLoading(true)
+    setTimeout(() => {
+      setIsLoading(false)
+      toast.success("Message delivered")
+      reset()
+    }, 3000)
   };
 
   return (
     <Wrapper>
       <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
-        <section>
+        <section className="flex flex-col gap-3">
           <Subtitle label="Talk to me" />
 
           <Input
@@ -38,30 +45,27 @@ const RegisterForm = () => {
             label="Name"
             disabled={isLoading}
             register={register}
-            placeholder="What's your name?"
             errors={errors}
             required
           />
-          <Input
+          <EmailInput
             id="email"
             label="Email"
             disabled={isLoading}
             register={register}
             errors={errors}
-            placeholder="What's your email"
+            type="email"
             required
           />
-          <TextArea
+          <TextAreaInput
             id="message"
             label="Message"
             disabled={isLoading}
             register={register}
             errors={errors}
-            placeholder="What do you have to tell me/offer me"
-            required
           />
           <Button
-            label={isLoading ? "submitting..." : "Message me"}
+            label={isLoading ? "Submitting..." : "Message me"}
             onClick={handleSubmit(onSubmit)}
           />
         </section>
