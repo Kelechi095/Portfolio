@@ -22,7 +22,7 @@ const Input = ({
   errors
 }: InputProps) => {
   return (
-    <div className="w-full relative">
+    <div className="w-full">
       <label
         htmlFor={id}
         className={`cursor-text text-md
