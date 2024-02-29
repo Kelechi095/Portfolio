@@ -48,11 +48,11 @@ export default function Home() {
           user-friendly websites for individuals and companies. I can create
           and integrate APIs into web apps and also provide continous support for
           existing projects which may include fixes, updates and development of
-          additional functionality or features
+          additional functionality or features. I have built stable and secure websites with:
         </p>
-        {/* <p className="mt-2 font-semibold text-lg md:text-xl text-blue-400">
+        <p className="mt-2 font-semibold text-lg md:text-xl text-blue-400">
           - {skills[skillIndex]}
-        </p> */}
+        </p>
       </div>
 
       <div>
