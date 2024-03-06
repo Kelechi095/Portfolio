@@ -41,14 +41,26 @@ const Projects = () => {
         </h4>
         <p>
           Booktekka is a web application I created to allow book readers to
-          recommend books to one another, create a library of books they want to read, have read, and are currently reading. I created this website out of a
-          personal need. As someone that enjoyed reading books, it was difficult
-          to find websites where I could get book recommendations based on the
-          genre I wanted to read and sort those recommendations based on user
+          recommend books to one another, create a library of books they want to
+          read, have read, and are currently reading. I created this website out
+          of a personal need.
+        </p>
+
+        <p className="mt-2">
+          As someone that enjoyed reading books, it was difficult to find
+          websites where I could get book recommendations based on the genre I
+          wanted to read and sort those recommendations based on user
           ratings/likes and reviews. The closest thing I could find was reddit's
-          bookrecommendation subreddit but this wasn't satisfactory. I also wanted an option to store my favorite book recommendations in some place where I could keep track of them, and probably also keep track of my reading progress. So I decided to solve the problem myself. It took me over a month to build
-          this website and although it's currently in production, I still intend
-          on adding more features in the future.
+          bookrecommendation subreddit but this wasn't satisfactory. I also
+          wanted an option to store my favorite book recommendations in some
+          place where I could keep track of them, and probably also keep track
+          of my reading progress.
+        </p>
+
+        <p className="mt-2">
+          So, I decided to solve the problem myself. It took me over a month to
+          build this website and although it's currently in production, I still
+          intend on adding more features in the future.
         </p>
       </section>
 
@@ -121,21 +133,50 @@ const Projects = () => {
         </h4>
         <ul className="list-disc ml-5">
           <li>User authentication and authorization</li>
-          <li>Admin dashboard with edit and delete options, as well as user and recommendations statistics</li>
+          <li>
+            Admin dashboard with edit and delete options, as well as user and
+            recommendations statistics
+          </li>
           <li>Server side pagination</li>
           <li>
-            Search functionality including the use of debounce. I used a
-            special custom hook for the debounce
+            Search functionality including the use of debounce. I used a special
+            custom hook for the debounce
           </li>
-          <li>Filter and sort functionality for both recommendation and library pages</li>
-          <li>Registered users can search for books to add to their library using google's books api</li>
-          <li>Users and guests can view the public profile of other users by clicking on their profile images on both recommendation pages and reviews</li>
-          <li>Users can update their profiles and even add or update profile photos</li>
-          <li>Private profile is only accessible to the user that owns that profile</li>
-          <li>Users can recommend books from their library and those books will get added to the recommendation page</li>
-          <li>Only logged in users can like a recommendation, add books to their libraries, recommend books or leave reviews</li>
+          <li>
+            Filter and sort functionality for both recommendation and library
+            pages
+          </li>
+          <li>
+            Registered users can search for books to add to their library using
+            google's books api
+          </li>
+          <li>
+            Users and guests can view the public profile of other users by
+            clicking on their profile images on both recommendation pages and
+            reviews
+          </li>
+          <li>
+            Users can update their profiles and even add or update profile
+            photos
+          </li>
+          <li>
+            Private profile is only accessible to the user that owns that
+            profile
+          </li>
+          <li>
+            Users can recommend books from their library and those books will
+            get added to the recommendation page
+          </li>
+          <li>
+            Only logged in users can like a recommendation, add books to their
+            libraries, recommend books or leave reviews
+          </li>
           <li>Users can edit and delete books in their libraries</li>
-          <li>Users can monitor their reading progress by updating the current page and total number of pages in the book they are currently reading</li>
+          <li>
+            Users can monitor their reading progress by updating the current
+            page and total number of pages in the book they are currently
+            reading
+          </li>
         </ul>
       </section>
 
@@ -153,27 +194,14 @@ const Projects = () => {
           project had a seperate Node.js and Express.js backend deployed on a
           seperate server. But due to constant spinning down of the server and
           high cost of hosting, I decided to recreate the project using Nextjs
-          and deployed it on vercel. You can find the github codes for the{" "}
-          <a
-            href="https://github.com/Kelechi095/BookTekka-Frontend"
-            className="underline text-blue-400"
-          >
-            Frontend
-          </a>{" "}
-          and
-          <a
-            href="https://github.com/Kelechi095/BookTekka-api"
-            className="underline text-blue-400"
-          >
-            {" "}
-            Backend
-          </a>{" "}
-          in these links
+          and deployed it on vercel.
         </p>
-        <div className="flex flex-col"></div>
-        <p>
-          I decided to rebuild the project using Nextjs instead of React for various
-          reasons:
+
+        <div className="mt-2">
+          <p>
+            I decided to rebuild the project using NextJs instead of React for
+            various reasons:
+          </p>
           <p>
             - I prefer the folder based routing of Nextjs to React Router Dom.
           </p>
@@ -186,7 +214,29 @@ const Projects = () => {
             api routes and server side rendering just seemed more suited to the
             project I was building.
           </p>
-        </p>
+        </div>
+
+        <div className="mt-2">
+          <p>
+            You can find the github codes for the{" "}
+            <a
+              href="https://github.com/Kelechi095/BookTekka-Frontend"
+              className="underline text-blue-400"
+            >
+              Frontend
+            </a>{" "}
+            and
+            <a
+              href="https://github.com/Kelechi095/BookTekka-api"
+              className="underline text-blue-400"
+            >
+              {" "}
+              Backend
+            </a>{" "}
+            in these links
+          </p>
+        </div>
+
       </section>
     </Wrapper>
   );
