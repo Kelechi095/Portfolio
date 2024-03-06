@@ -42,7 +42,7 @@ export default function Home() {
 
       <div>
         <p
-          className="max-w-[100%] md:max-w-[70%] text-white text-base md:text-[18px] mt-4 leading-[22px] md:leading-[24px]
+          className="max-w-[100%] md:max-w-[70%] text-white text-base text-justify md:text-[18px] mt-4 leading-[22px] md:leading-[24px]
 "
         >
           I'm a skilled web developer with experience in building responsive and

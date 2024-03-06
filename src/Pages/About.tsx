@@ -11,7 +11,7 @@ const About = () => {
       <Title label="About Myself" />
 
       <Subtitle label="Background:" />
-      <p className="text-white text-sm md:text-lg mb-6">
+      <p className="text-white text-sm md:text-lg mb-6 text-justify">
         My name is Awoms Kelechi. I am a web developer from Nigeria with
         experience in shipping features for large-scale and real-time
         applications. I am currently seeking a frontend or backend role in a
@@ -19,7 +19,7 @@ const About = () => {
       </p>
 
       <Subtitle label="Work Experience:" />
-      <p className=" text-white text-sm md:text-lg">
+      <p className=" text-white text-sm md:text-lg text-justify">
         I have worked for a year as a freelance frontend developer on upwork
         where I was responsible for architecting and building the frontend of
         new features, integrating data from various backend services and
@@ -28,7 +28,7 @@ const About = () => {
         performance across different web-capable devices and browsers.
       </p>
 
-      <p className="mt-2 text-white text-sm md:text-lg mb-6">
+      <p className="mt-2 text-white text-sm md:text-lg mb-6 text-justify">
         During this period, I developed strong problem-solving skills, attention
         to detail, and the ability to work independently. I am confident in my
         ability to tackle complex challenges and complete projects to a high
@@ -38,7 +38,7 @@ const About = () => {
       </p>
 
       <Subtitle label="Hobbies:" />
-      <p className=" text-white text-sm md:text-lg mb-6">
+      <p className=" text-white text-sm md:text-lg mb-6 text-justify">
         Beyond my professional life, I have a range of interests which include
         reading, writing stories, playing the piano and listening to music. I am
         an ardent follower of sports; particularly tennis, football and track &

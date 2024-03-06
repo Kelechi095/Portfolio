@@ -39,14 +39,14 @@ const Projects = () => {
         <h4 className="text-blue-400 font-semibold text-lg">
           Project Description:
         </h4>
-        <p>
+        <p className="text-justify">
           Booktekka is a web application I created to allow book readers to
           recommend books to one another, create a library of books they want to
           read, have read, and are currently reading. I created this website out
           of a personal need.
         </p>
 
-        <p className="mt-2">
+        <p className="mt-2 text-justify">
           As someone that enjoyed reading books, it was difficult to find
           websites where I could get book recommendations based on the genre I
           wanted to read and sort those recommendations based on user
@@ -57,7 +57,7 @@ const Projects = () => {
           of my reading progress.
         </p>
 
-        <p className="mt-2">
+        <p className="mt-2 text-justify">
           So, I decided to solve the problem myself. It took me over a month to
           build this website and although it's currently in production, I still
           intend on adding more features in the future.
@@ -184,8 +184,8 @@ const Projects = () => {
         <h4 className="text-blue-400 font-semibold text-lg">
           The first version of this project:
         </h4>
-        <p>
-          There was an earlier version of this project that is no longer in
+        <p className="text-justify">
+          There was an earlier version of this project but it is no longer in
           production. It was written in Javascript and built using Vanilla
           React. In this version, server-side state was handled using React
           Query, while client side state was handled using React context API
@@ -233,7 +233,7 @@ const Projects = () => {
               {" "}
               Backend
             </a>{" "}
-            in these links
+            in these links.
           </p>
         </div>
 
