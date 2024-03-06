@@ -12,7 +12,7 @@ interface ListItemProps {
 
 const ListItem = ({ text, src, icon: Icon, blue, big }: ListItemProps) => {
   return (
-    <li className="flex  flex-col justify-center items-center h-20 md:h-28 rounded px-8 py-2 bg-slate-800">
+    <li className="flex  flex-col justify-center items-center h-20 md:h-28 rounded px-8 py-2 bg-slate-800 transition md:hover:scale-105 duration-300">
       {Icon && (
         <Icon
           className={`
