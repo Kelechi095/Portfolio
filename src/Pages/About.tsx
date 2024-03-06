@@ -35,7 +35,7 @@ const About = () => {
       <Subtitle label="Hobbies:"/>
       <p className=" text-white text-sm md:text-lg mb-6">
         Beyond my professional life, I have a range of interests which include
-        reading, writing stories, playing the piano and listening to music. I am also an ardent follower of sports;  particularly tennis, soccer and track & field athletics. I also have a keen interest in history and international politics. And I love dogs!
+        reading, writing stories, playing the piano and listening to music. I am an ardent follower of sports;  particularly tennis, football and track & field athletics. I also have a keen interest in history and international politics.
       </p>
       
     </Wrapper>
