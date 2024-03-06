@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Animation1 from "../components/Animation1";
 import Wrapper from "../components/Wrapper";
+import resume from "../public/resume.pdf";
 
 export default function Home() {
   const [skillIndex, setSkillIndex] = useState(0);
@@ -45,10 +46,11 @@ export default function Home() {
 "
         >
           I'm a skilled web developer with experience in building responsive and
-          user-friendly websites for individuals and companies. I can create
-          and integrate APIs into web apps and also provide continous support for
+          user-friendly websites for individuals and companies. I can create and
+          integrate APIs into web apps and also provide continous support for
           existing projects which may include fixes, updates and development of
-          additional functionality or features. I have built stable and secure websites with:
+          additional functionality or features. I have built stable and secure
+          websites with:
         </p>
         <p className="mt-2 font-semibold text-lg md:text-xl text-blue-400">
           - {skills[skillIndex]}
@@ -56,9 +58,11 @@ export default function Home() {
       </div>
 
       <div>
-        <button className="p-4 bg-slate-800 text-white mt-5 text-lg md:text-xl w-[70%] md:w-fit rounded hover:bg-slate-700 transition duration-300 whitespace-nowrap">
-          Download Resume
-        </button>
+        <a href={resume} download="resume" target="_blank">
+          <button className="p-4 bg-slate-800 text-white mt-5 text-lg md:text-xl w-[70%] md:w-fit rounded hover:bg-slate-700 transition duration-300 whitespace-nowrap">
+            Download Resume
+          </button>
+        </a>
       </div>
     </Wrapper>
   );

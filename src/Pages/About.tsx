@@ -30,10 +30,6 @@ const About = () => {
         me an ideal candidate for any team in need of a dynamic and
         result-oriented individual.
       </p>
-      <p className=" dark:text-white text-sm md:text-[17px] text-cyan-900 mb-6">
-        Besides freelancing, I have also collaborated with other web developers on open source projects, where I added functionality to web application, wrote tests, and participated in code reviews to ensure
-        adherence to best practices and coding standards.
-      </p>
        
       
       <Subtitle label="Hobbies:"/>

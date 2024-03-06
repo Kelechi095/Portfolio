@@ -1,5 +1,3 @@
-
-
 const Animation1 = () => {
   return (
     <div className="my-40 absolute top-10 hidden md:flex right-40">
@@ -10,7 +8,7 @@ const Animation1 = () => {
         </span>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Animation1
+export default Animation1;

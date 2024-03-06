@@ -1,6 +1,11 @@
 import { NavLink } from "react-router-dom";
 
-const HiddenNav = ({ isOpen, setIsOpen }: any) => {
+interface HiddenNavProps {
+  isOpen: boolean;
+  setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+const HiddenNav = ({ isOpen, setIsOpen }: HiddenNavProps) => {
   const activeStyles = "text-blue-300";
   const inactiveStyles =
     "text-slate-800 hover:text-cyan-600 text-zinc-100 hover:text-neutral-400";
