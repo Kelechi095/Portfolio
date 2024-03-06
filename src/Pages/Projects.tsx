@@ -75,7 +75,7 @@ const Projects = () => {
           </li>
           <li>
             The project was built with{" "}
-            <span className="font-semibold">NextJs</span> and deployed on{" "}
+            <span className="font-semibold">Next.js</span> and deployed on{" "}
             <span className="font-semibold ">Vercel</span>
           </li>
           <li>
@@ -110,7 +110,7 @@ const Projects = () => {
           </li>
           <li>
             APIs were created using{" "}
-            <span className="font-semibold">NextJs API routes</span>
+            <span className="font-semibold">Next.js API routes</span>
           </li>
           <li>
             <span className="font-semibold">Axios</span> was used for HTTP

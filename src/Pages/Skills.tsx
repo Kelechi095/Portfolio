@@ -35,15 +35,15 @@ const Skills = () => {
             <ListItem text="CSS3" icon={IoLogoCss3} />
             <ListItem text="JavaScript" icon={IoLogoJavascript} />
             <ListItem text="TypeScript" icon={SiTypescript} />
-            <ListItem text="ReactJs" icon={FaReact} />
-            <ListItem text="NextJs" icon={TbBrandNextjs} />
+            <ListItem text="React.js" icon={FaReact} />
+            <ListItem text="Next.js" icon={TbBrandNextjs} />
           </ul>
         </div>
 
         <div className="py-2">
           <Subtitle label="Backend" />
           <ul className="grid grid-cols-3 gap-4">
-            <ListItem text="NodeJs" icon={FaNodeJs} />
+            <ListItem text="Node.js" icon={FaNodeJs} />
             <ListItem text="Express" icon={SiExpress} />
             <ListItem text="PostgreSQL" icon={SiPostgresql} />
             <ListItem text="MongoDB" icon={DiMongodb} />

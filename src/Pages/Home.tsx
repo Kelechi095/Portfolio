@@ -59,7 +59,7 @@ export default function Home() {
 
       <div>
         <a href={resume} download="resume" target="_blank">
-          <button className="p-4 bg-slate-800 text-white mt-5 text-lg md:text-xl w-[70%] md:w-fit rounded hover:bg-slate-700 transition duration-300 whitespace-nowrap">
+          <button className="p-4 bg-slate-800 text-white mt-5 text-lg md:text-xl w-[70%] md:w-fit rounded md:hover:bg-slate-700 transition duration-300 whitespace-nowrap">
             Download Resume
           </button>
         </a>
